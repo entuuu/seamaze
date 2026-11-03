@@ -125,5 +125,6 @@ temp/
 # ==================================================
 # Project-specific artifacts
 # ==================================================
-
+.claude/
+flowcharts/
 # Add project-specific rules below
