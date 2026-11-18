@@ -51,6 +51,7 @@ DEFAULT_POSITION = {
     'fixed_rank': None, 'init_dim': ('r0=1', 0),
     'update_interval': ('interval=auto', 0), 'pop_size': ('pop=17', 0),
     'sigma0': ('sigma0 x1', 1),
+    'bootstrap_quantile': ('bq=0.95', 2), 'bootstrap_size': ('bsize=32', 1),
     }
 GROUP_TITLE = {
     'energy_tol': 'low_rank_energy_tolerance',
@@ -60,6 +61,8 @@ GROUP_TITLE = {
     'update_interval': 'update_interval',
     'pop_size': 'number_of_individuals',
     'sigma0': 'initial_sigma (Faktor auf 0.3 x Bereichsbreite)',
+    'bootstrap_quantile': 'low_rank_bootstrap_quantile',
+    'bootstrap_size': 'low_rank_bootstrap_size',
     }
 
 

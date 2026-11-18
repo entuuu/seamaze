@@ -93,6 +93,15 @@ def stage1_configs(n=NDIM):
         cfgs.append(('energy_tol', f'tol={tol:g}',
                      {'low_rank_energy_tolerance': tol}, 1.0,
                      MAIN_FUNCTIONS))
+    # Bootstrap noise filter of the rank selection (since upstream 42989fb;
+    # defaults: quantile 0.95, size 32)
+    for q in [0.5, 0.8, 0.99]:
+        cfgs.append(('bootstrap_quantile', f'bq={q:g}',
+                     {'low_rank_bootstrap_quantile': q}, 1.0,
+                     MAIN_FUNCTIONS))
+    for b in [8, 128]:
+        cfgs.append(('bootstrap_size', f'bsize={b}',
+                     {'low_rank_bootstrap_size': b}, 1.0, MAIN_FUNCTIONS))
     for frac in [20, 10, 4, 2]:
         r = max(1, n // frac)
         cfgs.append(('max_dim', f'rmax={r}',

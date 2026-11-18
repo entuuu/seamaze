@@ -4,6 +4,29 @@ Stand: 16.11.2026. Dieses Dokument enthält alles, um die Studie ohne den
 bisherigen Gesprächsverlauf fortzusetzen. Lies es einmal ganz, bevor du etwas
 startest.
 
+> **Versionswechsel am 18.11.2026 – zuerst lesen.** Alle Ergebnisse in den
+> Abschnitten 6 und 7 (Stufe 1, Stufe 2, Leiter, Diagnosen, Rauschmessung)
+> stammen vom Bibliotheksstand **5f688e3 (12.10.2026)**. Der Fork wurde am
+> 18.11. auf upstream/master **9c36985** gebracht (Merge in `master` und
+> `parameter-study`, `develop` vorgespult). Der neue Stand ändert genau die
+> untersuchten Stellen:
+>
+> - Rangwahl: statt fester Schwelle 0,02 ein Rauschfilter per
+>   Rademacher-Multiplier-Bootstrap (neue Parameter
+>   `low_rank_bootstrap_size` = 32, `low_rank_bootstrap_quantile` = 0,95) und
+>   eine Hysterese (Rang +1 erst nach 5, −1 nach 2 gleichgerichteten Updates).
+> - Abklingfaktor in DLR **und** CMA-ES: 1 − c1 − cμ·Σw° (angepasste
+>   Gewichte) statt 1 − c1 − cμ.
+>
+> Darum: Die alten Ergebnisse liegen unter `results/alt_5f688e3/` (Stufe 1
+> und 2 samt Logs); Leiter, Diagnosen und Rauschmessung sind ebenfalls alter
+> Stand, liegen aber noch an ihren Orten. Stufe 3 wurde auf dem zweiten
+> Rechner abgebrochen. Stufe 1 und 2 werden auf dem neuen Stand wiederholt;
+> Stufe 1 enthält dafür zusätzlich die Gruppen `bootstrap_quantile`
+> (0,5 / 0,8 / 0,99) und `bootstrap_size` (8 / 128). Die korrigierte
+> CMA-ES-Referenz wurde aus dem neuen `_cmaes.py` neu erzeugt (der
+> Pfad-Fehler ist in upstream weiterhin vorhanden).
+
 ## 1. Ziel
 
 Der Nutzer (Masterarbeit) will den Algorithmus DLR-CMA-ES **besser verstehen**.
@@ -65,8 +88,11 @@ Niedrigrang-Teil mit r Richtungen, ψ die Restvarianz pro Koordinate.
 | `update_interval` | automatisch | U, S, ψ werden nur jede k-te Generation aktualisiert. Automatik: ceil(√(r / (n·c_cov))), neu berechnet bei Rangänderung. Bei n = 100: Rang ≤ 3 → 1, ≤ 15 → 2, ≤ 35 → 3, ≤ 62 → 4, darüber 5. |
 | `number_of_individuals` | 4 + int(3·ln n) | Populationsgröße, bei n = 100 also 17. |
 | `initial_sigma` | 1.0 | Startschrittweite. |
+| `low_rank_bootstrap_size` | 32 | (seit 9c36985) Anzahl der Rademacher-Ziehungen für die Rauschschwelle der Rangwahl. |
+| `low_rank_bootstrap_quantile` | 0.95 | (seit 9c36985) Quantil der Bootstrap-Verteilung des größten Rausch-Eigenwerts, das als Schwelle dient. Höher → strengerer Filter → kleinerer Rang. |
 
-Der Rang ändert sich pro Kovarianz-Update nur um ±1.
+Der Rang ändert sich pro Kovarianz-Update nur um ±1, im neuen Stand
+zusätzlich erst nach 5 (hoch) bzw. 2 (runter) gleichgerichteten Updates.
 
 ### 3.2 Abbruchkriterien (in der Studie festgehalten)
 
@@ -77,7 +103,10 @@ Der Rang ändert sich pro Kovarianz-Update nur um ±1.
 
 - `beta = 0.0` in `_get_learning_rates`: Lernraten × (n/r)^β. Mit 0 ohne
   Wirkung.
-- `threshold = 0.02` in `_adaptive_bug_step`: Rauschfilter der Rangwahl.
+- Alter Stand 5f688e3: `threshold = 0.02` in `_adaptive_bug_step`
+  (Rauschfilter der Rangwahl). Im neuen Stand ersetzt durch den Bootstrap.
+- Neuer Stand: `required_persistence_up = 5`, `required_persistence_down = 2`
+  (Hysterese der Rangwahl).
 - Rangschritt ±1, Krylov-Dimension 20.
 
 ### 3.4 Referenz: normales CMA-ES
