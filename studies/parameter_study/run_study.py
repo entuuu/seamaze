@@ -31,12 +31,17 @@ from time import perf_counter
 
 from study import (NDIM, ROTATED_FUNCTIONS, ladder_configs, psifold_configs,
                    ref_configs, run_single, stage1_configs, stage2_configs,
+                   stage2_rosenbrock_configs, stage3_configs, STAGE3_DIMS,
+                   STAGE3_TIMING_FUNCTIONS,
                    task_key)
 
 HERE = Path(__file__).resolve().parent
 RESULTS = HERE / 'results'
 # Result folder per stage (CSV: results/<folder>/<stage>.csv)
+# CSV name per stage if it differs from the stage name (shared CSV)
+STAGE_CSV = {'stage2_rosenbrock': 'stage2'}
 STAGE_DIR = {'ladder_ref': 'ladder', 'psifold': 'ladder',
+             'stage2_rosenbrock': 'stage2',
              'rotpilot': 'archiv_rotpilot'}
 
 
@@ -57,6 +62,24 @@ def build_tasks(stage, n_seeds):
         seeds = range(n_seeds)
     elif stage == 'stage2':
         cfgs = stage2_configs()
+        seeds = range(n_seeds)
+    elif stage in ('stage3', 'stage3_timing'):
+        # stage3_timing: seed 0 on a function subset, run with 1 worker on an
+        # otherwise idle machine for clean wall times (own CSV)
+        timing = stage == 'stage3_timing'
+        tasks = []
+        for n in STAGE3_DIMS:
+            for group, label, kwargs, scale, funcs in stage3_configs():
+                if timing:
+                    funcs = [f for f in funcs
+                             if f in STAGE3_TIMING_FUNCTIONS]
+                for fname in funcs:
+                    for seed in (range(1) if timing else range(n_seeds)):
+                        tasks.append((group, label, kwargs, scale, fname, n,
+                                      seed))
+        return tasks
+    elif stage == 'stage2_rosenbrock':
+        cfgs = stage2_rosenbrock_configs()
         seeds = range(n_seeds)
     elif stage == 'psifold':
         cfgs = psifold_configs(NDIM)
@@ -97,7 +120,7 @@ def keep_awake(on):
 def run_stage(stage, workers, n_seeds):
     folder = RESULTS / STAGE_DIR.get(stage, stage)
     folder.mkdir(parents=True, exist_ok=True)
-    path = folder / f'{stage}.csv'
+    path = folder / f'{STAGE_CSV.get(stage, stage)}.csv'
     done = load_done(path)
     all_tasks = build_tasks(stage, n_seeds)
     # Manifest for progress.py (avoids importing the library there)
@@ -107,7 +130,7 @@ def run_stage(stage, workers, n_seeds):
     # Expensive functions first for better load balancing
     order = {'Ellipsoid': 0, 'Rosenbrock': 1, 'Rastrigin': 2,
              'Rotated Ellipsoid': 3}
-    tasks.sort(key=lambda t: order.get(t[4], 9))
+    tasks.sort(key=lambda t: (-t[5], order.get(t[4], 9)))  # large n first
     print(f'{stage}: {len(tasks)} tasks to run ({len(done)} already done), '
           f'{workers} workers', flush=True)
 

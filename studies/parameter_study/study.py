@@ -31,7 +31,12 @@ from seamaze.optimizers import CMAES, DLRCMAES
 NDIM = 100
 TARGET = 1e-8
 BUDGET_FACTOR = 1e4          # evaluation budget = BUDGET_FACTOR * n
-WALL_CAP = 900               # safety cap per run (seconds)
+WALL_CAP = 900               # safety cap per run at n = 100 (seconds)
+
+
+def wall_cap(n):
+    """Safety cap per run, grows with n^2 (unchanged 900 s at n <= 100)."""
+    return max(WALL_CAP, WALL_CAP * (n / 100) ** 2)
 SIGMA_FRACTION = 0.3         # sigma0 = fraction of the search range width
 
 class Rotated:
@@ -190,6 +195,44 @@ def stage2_configs():
     return cfgs
 
 
+STAGE3_DIMS = [30, 100, 300]
+STAGE3_FUNCTIONS = ['Ellipsoid', 'Rotated Ellipsoid', 'Rosenbrock',
+                    'Bent-Cigar']
+# 1e4*n is not enough at n = 300 (pilot 18.11.2026: all runs failed);
+# stage 3 is self-contained with a 3e4*n budget at every n.
+STAGE3_BUDGET_FACTOR = 3e4
+# Sequential timing runs (stage3_timing): subset, see PLAN.md
+STAGE3_TIMING_FUNCTIONS = ['Ellipsoid', 'Bent-Cigar']
+
+
+def stage3_configs():
+    """Stage 3: scaling over n (own CSV, budget STAGE3_BUDGET_FACTOR * n).
+    Labels follow stage 2 / ladder_ref; results are not mixed with them
+    because the budget differs."""
+    funcs = STAGE3_FUNCTIONS
+    extra = {'_budget_factor': STAGE3_BUDGET_FACTOR}
+    cfgs = []
+    for tol, interval in [(1e-2, None), (5e-2, None), (3e-1, None),
+                          (1e-2, 1)]:
+        kw = {'low_rank_energy_tolerance': tol, **extra}
+        if interval is not None:
+            kw['update_interval'] = interval
+        cfgs.append(('stage3', stage2_label(tol, interval), kw, 1.0, funcs))
+    cfgs.append(('stage3', 'CMA-ES korr.',
+                 {'_solver': 'cmaes_fixed', **extra}, 1.0, funcs))
+    cfgs.append(('stage3', 'CMA-ES korr., interval=1',
+                 {'_solver': 'cmaes_fixed', 'update_interval': 1, **extra},
+                 1.0, funcs))
+    return cfgs
+
+
+def stage2_rosenbrock_configs():
+    """Stage 2 grid on Rosenbrock only (to extend it to more seeds; results
+    go into the stage2 CSV, same labels)."""
+    return [(g, lab, kw, sc, ['Rosenbrock'])
+            for g, lab, kw, sc, _ in stage2_configs()]
+
+
 def _solver_class(name):
     """Map a solver key to its class (variants are imported lazily)."""
     if name == 'cmaes':
@@ -246,7 +289,8 @@ def run_single(task):
     x0 = np.random.default_rng(10_000 + seed).uniform(lower, upper)
 
     pop = kwargs.get('number_of_individuals', default_pop(n))
-    budget = int(BUDGET_FACTOR * n)
+    budget_factor = kwargs.pop('_budget_factor', BUDGET_FACTOR)
+    budget = int(budget_factor * n)
     max_iter = ceil(budget / pop)
 
     tracker = _RankTracker()
@@ -255,7 +299,7 @@ def run_single(task):
         objective=problem.__call__,
         initial_sigma=sigma0,
         maximum_iterations=max_iter,
-        maximum_wall_time=WALL_CAP,
+        maximum_wall_time=wall_cap(n) * budget_factor / BUDGET_FACTOR,
         fitness_threshold=TARGET,
         fitness_window_size=50,
         tolerance=0.0,               # disables both plateau criteria

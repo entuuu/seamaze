@@ -188,7 +188,7 @@ if __name__ == '__main__':
     summary.to_csv(BASE / 'stage2_summary.csv', index=False)
     heatmaps(summary, 'evals_rel',
              'Evaluierungen bis f < 1e-8 relativ zum Standard '
-             '(Median erfolgreicher Läufe, n = 100, 5 Seeds; blau = besser)',
+             '(Median erfolgreicher Läufe, n = 100, 5 Seeds, Rosenbrock 10; blau = besser)',
              'evals.png',
              'Umrahmt: Standard (tol = 0,01, Intervall automatisch). '
              '(k/5): nur k Läufe erfolgreich; grau: kein Erfolg.')

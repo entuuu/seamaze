@@ -30,7 +30,9 @@ from matplotlib.colors import LinearSegmentedColormap
 
 HERE = Path(__file__).resolve().parent
 RESULTS = HERE / 'results'
+STAGE_CSV = {'stage2_rosenbrock': 'stage2'}      # same as run_study.py
 STAGE_DIR = {'ladder_ref': 'ladder', 'psifold': 'ladder',
+             'stage2_rosenbrock': 'stage2',
              'rotpilot': 'archiv_rotpilot'}       # same as run_study.py
 REFRESH = 20
 INK, MUTED = '#1f1f1e', '#6b6a63'
@@ -82,7 +84,7 @@ def draw(fig, stage, n_seeds, tasks):
     labels = list(dict.fromkeys(t[0] for t in tasks))
     funcs = list(dict.fromkeys(t[1] for t in tasks))
     folder = RESULTS / STAGE_DIR.get(stage, stage)
-    csv = folder / f'{stage}.csv'
+    csv = folder / f'{STAGE_CSV.get(stage, stage)}.csv'
     df = (pd.read_csv(csv) if csv.exists()
           else pd.DataFrame(columns=['label', 'function', 'success']))
     seeds_per = set(tasks)

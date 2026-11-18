@@ -1,0 +1,3 @@
+tol=0.01, interval=auto    Ellipsoid    n=300 Erfolg=0 f=2.76e+00 Evals=3000018 Budget=3000000 Rang=157 Zeit=3429s ms/Iter=24.0 MAX_ITER_REACHED
+tol=0.01, interval=auto    Rosenbrock   n=300 Erfolg=0 f=6.97e+01 Evals=3000018 Budget=3000000 Rang=46 Zeit=1078s ms/Iter=7.5 MAX_ITER_REACHED
+CMA-ES korr.               Ellipsoid    n=300 Erfolg=0 f=2.09e+02 Evals=3000018 Budget=3000000 Rang=300 Zeit=1610s ms/Iter=11.3 MAX_ITER_REACHED

@@ -303,6 +303,14 @@ Schlussfolgerungen:
    besser.
 3. Feste Intervalle 2/3 sind nie besser als auto in Evaluierungen; auto ist
    eine gute Heuristik, solange der Rang klein bleibt.
+Nachtrag Rosenbrock mit 10 Seeds (`stage2_rosenbrock`, 18.11.2026):
+Standard 569k Evaluierungen, 7/10 Erfolge. Erfolg hängt fast nur am Seed
+(Seed 3 nie, Seed 8 zu 25 %, Seed 0/4 teilweise, Rest immer); Intervall 2/3
+schaffen 8/10, alle anderen 7/10, unabhängig von tol. Evaluierungen relativ:
+Intervall 1 mit tol ≤ 0,01 0,69–0,71× (bestätigt), aber 1,7–2,9× Zeit;
+höhere tol mit Intervall 2/3 1,15–1,71×. Laufzeit: tol 0,1–0,3 0,68–0,87×.
+ERT: Standard 971k, bestes tol=0,001/0,01 mit Intervall 1: 666–677k.
+
 4. Kompromiss-Kandidat tol=0,05 (auto): Ellipsoid 0,85× Eval./0,73× Zeit,
    Rotated Ellipsoid 1,09×/1,04×, Rosenbrock 1,19× (verrauscht)/0,94×,
    Bent-Cigar/Discus 1,0×.
@@ -620,6 +628,79 @@ vorher in `STAGE2_FUNCTIONS` auskommentieren; dabei das Label-Schema nicht
 - Geschätzte Dauer: 2 bis 2,5 Stunden.
 
 ### Schritt 4: Skalierung über die Dimension (Stufe 3)
+
+**Status 18.11.2026: fertig vorbereitet, wird vom Nutzer auf einem anderen
+(stärkeren) Rechner ausgeführt.** Hier lokal nicht starten.
+
+Vorgeschichte:
+
+- Rosenbrock aus Stufe 2 auf 10 Seeds erweitert: Stufe
+  `stage2_rosenbrock` (nur Rosenbrock, gleiche Labels, schreibt in
+  `results/stage2/stage2.csv`, `STAGE_CSV` in run_study/progress).
+- Pilot `diagnostics/pilot_n300.py` (n = 300, Seed 0, Budget 10⁴·n,
+  parallel zu anderen Läufen, Zeiten grob; `results/logs/pilot_n300.log`):
+  alle drei Läufe scheitern am Budget. DLR Standard Ellipsoid f = 2,8 nach
+  3 Mio. Evaluierungen, Rang 157, 57 min, 24 ms/Iteration; CMA-ES korr.
+  Ellipsoid f = 209, 27 min, 11 ms/Iteration; DLR Standard Rosenbrock
+  f = 70, 18 min. Hinweis: Bei Standard-tol wächst der Rang auf ~n/2, DLR
+  ist pro Iteration dann teurer als CMA-ES.
+
+Aufbau Stufe 3 (selbstständig, eigene CSV `results/stage3/stage3.csv`):
+
+- Dimensionen `STAGE3_DIMS` = 30, 100, 300; Budget
+  `STAGE3_BUDGET_FACTOR` = 3·10⁴·n (Stufen 1/2 hatten 10⁴·n, deshalb werden
+  n = 100 neu gerechnet und nicht aus Stufe 2 übernommen).
+- Zeitgrenze pro Lauf: `wall_cap(n)` · 3 = 900 s · (n/100)² · 3
+  (n = 300: 6,75 h).
+- Konfigurationen `stage3_configs()`: `tol=0.01, interval=auto`
+  (Standard), `tol=0.05, interval=auto`, `tol=0.3, interval=auto`,
+  `tol=0.01, interval=1`, `CMA-ES korr.`, `CMA-ES korr., interval=1`.
+- Funktionen `STAGE3_FUNCTIONS`: Ellipsoid, Rotated Ellipsoid, Rosenbrock,
+  Bent-Cigar. 5 Seeds → 360 Läufe.
+- `stage3_timing`: Seed 0, nur Ellipsoid und Bent-Cigar
+  (`STAGE3_TIMING_FUNCTIONS`), 36 Läufe, eigene CSV, für saubere Zeiten mit
+  **1 Prozess** auf sonst unbelastetem Rechner.
+- Auswertung `analysis/analyze_stage3.py`: Evaluierungen, Laufzeit und
+  ms/Iteration über n (je ein Panel pro Funktion, eine Linie pro
+  Konfiguration, DLR durchgezogen, CMA-ES gestrichelt) plus Tabelle.
+  Laufzeit und ms/Iteration kommen aus `stage3_timing.csv`, falls
+  vorhanden. Mit einem Kleintest bei n = 30 geprüft (`--base <ordner>`).
+
+Grobe Rechenzeit (aus dem Pilot hochgerechnet, unsicher): n = 300 etwa
+1–2 h pro Lauf → 120 Läufe ≈ 120–200 CPU-Stunden; n = 100 ≈ 10 CPU-Stunden;
+n = 30 < 1 CPU-Stunde. Mit 16 parallelen Prozessen grob 8–13 h, mit 6 über
+einen Tag. `stage3_timing` sequenziell zusätzlich etwa 10–20 h (fast alles
+n = 300). Wer Zeit sparen will: erst 3 Seeds (`stage3 <prozesse> 3`), später
+mit `stage3 <prozesse> 5` auf 5 Seeds erweitern (fortsetzbar).
+
+**Anleitung für den anderen Rechner:**
+
+```
+git clone https://github.com/entuuu/seamaze.git
+cd seamaze
+git checkout parameter-study
+python -m venv .venv
+# Windows: .venv\Scripts\activate   Linux/macOS: source .venv/bin/activate
+pip install -r requirements.txt     # oder: poetry install
+pip install -e .                    # seamaze importierbar machen
+cd studies/parameter_study
+mkdir -p results/logs
+python run_study.py stage3 <prozesse> 5 > results/logs/stage3.log 2>&1
+python progress.py stage3 5         # Fortschritt (Fenster), oder --png
+# danach, auf sonst leerem Rechner:
+python run_study.py stage3_timing 1 1 > results/logs/stage3_timing.log 2>&1
+python analysis/analyze_stage3.py
+```
+
+- `<prozesse>`: Anzahl physischer Kerne minus 1 bis 2 (nicht die logischen
+  Kerne mit Hyperthreading, sonst werden die Zeiten verfälscht).
+- Fortsetzbar: bei Abbruch denselben Befehl erneut starten.
+- Der Ruhezustand wird nur unter Windows automatisch verhindert; unter
+  Linux/macOS selbst dafür sorgen.
+- Danach `results/stage3/` und `results/logs/stage3*.log` committen und
+  pushen, dann kann hier weiter ausgewertet werden.
+
+Ursprüngliche Planung:
 
 - Dimensionen: n = 30, 100, 300. n = 1000 nur für Sphere und Bent-Cigar
   und nur mit einem Seed.
