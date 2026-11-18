@@ -1,0 +1,502 @@
+stage2: 500 tasks to run (0 already done), 6 workers
+[1/500     239s] tol=0.001, interval=1    Ellipsoid          s=0 ok=1 f=9.96e-09 evals=  228395 r= 92 t= 138.3s FITNESS_BELOW_THRESH
+[2/500     249s] tol=0.001, interval=auto Ellipsoid          s=1 ok=1 f=1.00e-08 evals=  760019 r= 89 t= 147.7s FITNESS_BELOW_THRESH
+[3/500     249s] tol=0.001, interval=auto Ellipsoid          s=3 ok=1 f=9.98e-09 evals=  753610 r= 89 t= 148.2s FITNESS_BELOW_THRESH
+[4/500     250s] tol=0.001, interval=auto Ellipsoid          s=0 ok=1 f=9.98e-09 evals=  753304 r= 90 t= 148.9s FITNESS_BELOW_THRESH
+[5/500     252s] tol=0.001, interval=auto Ellipsoid          s=2 ok=1 f=9.85e-09 evals=  769539 r= 91 t= 151.2s FITNESS_BELOW_THRESH
+[6/500     253s] tol=0.001, interval=auto Ellipsoid          s=4 ok=1 f=9.99e-09 evals=  766224 r= 89 t= 151.8s FITNESS_BELOW_THRESH
+[7/500     367s] tol=0.001, interval=1    Ellipsoid          s=1 ok=1 f=9.74e-09 evals=  220405 r= 92 t= 127.7s FITNESS_BELOW_THRESH
+[8/500     374s] tol=0.001, interval=1    Ellipsoid          s=3 ok=1 f=9.69e-09 evals=  222802 r= 92 t= 125.1s FITNESS_BELOW_THRESH
+[9/500     379s] tol=0.001, interval=1    Ellipsoid          s=4 ok=1 f=9.74e-09 evals=  221000 r= 91 t= 128.9s FITNESS_BELOW_THRESH
+[10/500     387s] tol=0.001, interval=1    Ellipsoid          s=2 ok=1 f=9.87e-09 evals=  237847 r= 92 t= 138.0s FITNESS_BELOW_THRESH
+[11/500     398s] tol=0.001, interval=2    Ellipsoid          s=1 ok=1 f=9.95e-09 evals=  443292 r= 92 t= 145.7s FITNESS_BELOW_THRESH
+[12/500     399s] tol=0.001, interval=2    Ellipsoid          s=0 ok=1 f=9.95e-09 evals=  443887 r= 93 t= 146.5s FITNESS_BELOW_THRESH
+[13/500     514s] tol=0.001, interval=2    Ellipsoid          s=2 ok=1 f=9.99e-09 evals=  443700 r= 92 t= 147.4s FITNESS_BELOW_THRESH
+[14/500     521s] tol=0.001, interval=2    Ellipsoid          s=3 ok=1 f=9.86e-09 evals=  445094 r= 91 t= 146.5s FITNESS_BELOW_THRESH
+[15/500     535s] tol=0.001, interval=2    Ellipsoid          s=4 ok=1 f=9.81e-09 evals=  453356 r= 92 t= 155.8s FITNESS_BELOW_THRESH
+[16/500     539s] tol=0.001, interval=3    Ellipsoid          s=0 ok=1 f=9.98e-09 evals=  606458 r= 91 t= 152.3s FITNESS_BELOW_THRESH
+[17/500     547s] tol=0.001, interval=3    Ellipsoid          s=1 ok=1 f=9.97e-09 evals=  592620 r= 89 t= 148.3s FITNESS_BELOW_THRESH
+[18/500     550s] tol=0.001, interval=3    Ellipsoid          s=2 ok=1 f=9.96e-09 evals=  603908 r= 90 t= 151.0s FITNESS_BELOW_THRESH
+[19/500     658s] tol=0.01, interval=auto  Ellipsoid          s=0 ok=1 f=9.99e-09 evals=  681190 r= 76 t= 123.5s FITNESS_BELOW_THRESH
+[20/500     659s] tol=0.001, interval=3    Ellipsoid          s=3 ok=1 f=9.94e-09 evals=  597533 r= 92 t= 144.6s FITNESS_BELOW_THRESH
+[21/500     662s] tol=0.01, interval=auto  Ellipsoid          s=1 ok=1 f=9.97e-09 evals=  676838 r= 75 t= 123.3s FITNESS_BELOW_THRESH
+[22/500     669s] tol=0.001, interval=3    Ellipsoid          s=4 ok=1 f=1.00e-08 evals=  600508 r= 92 t= 148.6s FITNESS_BELOW_THRESH
+[23/500     681s] tol=0.01, interval=auto  Ellipsoid          s=3 ok=1 f=9.99e-09 evals=  690013 r= 77 t= 131.3s FITNESS_BELOW_THRESH
+[24/500     683s] tol=0.01, interval=auto  Ellipsoid          s=2 ok=1 f=9.97e-09 evals=  716380 r= 78 t= 136.7s FITNESS_BELOW_THRESH
+[25/500     783s] tol=0.01, interval=auto  Ellipsoid          s=4 ok=1 f=9.99e-09 evals=  686188 r= 78 t= 125.3s FITNESS_BELOW_THRESH
+[26/500     823s] tol=0.01, interval=1     Ellipsoid          s=0 ok=1 f=9.41e-09 evals=  284631 r= 86 t= 163.7s FITNESS_BELOW_THRESH
+[27/500     827s] tol=0.01, interval=1     Ellipsoid          s=1 ok=1 f=9.86e-09 evals=  287232 r= 86 t= 164.7s FITNESS_BELOW_THRESH
+[28/500     830s] tol=0.01, interval=1     Ellipsoid          s=2 ok=1 f=9.94e-09 evals=  282880 r= 85 t= 160.8s FITNESS_BELOW_THRESH
+[29/500     838s] tol=0.01, interval=1     Ellipsoid          s=3 ok=1 f=9.70e-09 evals=  280109 r= 86 t= 157.0s FITNESS_BELOW_THRESH
+[30/500     842s] tol=0.01, interval=1     Ellipsoid          s=4 ok=1 f=9.97e-09 evals=  288507 r= 85 t= 158.7s FITNESS_BELOW_THRESH
+[31/500     922s] tol=0.01, interval=2     Ellipsoid          s=0 ok=1 f=9.99e-09 evals=  443513 r= 84 t= 138.9s FITNESS_BELOW_THRESH
+[32/500     959s] tol=0.01, interval=2     Ellipsoid          s=1 ok=1 f=9.50e-09 evals=  445638 r= 83 t= 136.1s FITNESS_BELOW_THRESH
+[33/500     963s] tol=0.01, interval=2     Ellipsoid          s=2 ok=1 f=9.80e-09 evals=  445162 r= 83 t= 136.6s FITNESS_BELOW_THRESH
+[34/500     967s] tol=0.01, interval=2     Ellipsoid          s=3 ok=1 f=9.99e-09 evals=  449004 r= 84 t= 137.3s FITNESS_BELOW_THRESH
+[35/500     975s] tol=0.01, interval=3     Ellipsoid          s=0 ok=1 f=9.95e-09 evals=  595204 r= 82 t= 132.9s FITNESS_BELOW_THRESH
+[36/500     975s] tol=0.01, interval=2     Ellipsoid          s=4 ok=1 f=9.89e-09 evals=  447831 r= 83 t= 137.3s FITNESS_BELOW_THRESH
+[37/500    1061s] tol=0.05, interval=auto  Ellipsoid          s=0 ok=1 f=9.91e-09 evals=  553044 r= 45 t=  85.6s FITNESS_BELOW_THRESH
+[38/500    1064s] tol=0.01, interval=3     Ellipsoid          s=1 ok=1 f=1.00e-08 evals=  597040 r= 81 t= 142.1s FITNESS_BELOW_THRESH
+[39/500    1071s] tol=0.05, interval=auto  Ellipsoid          s=1 ok=1 f=9.99e-09 evals=  592042 r= 51 t=  95.8s FITNESS_BELOW_THRESH
+[40/500    1106s] tol=0.01, interval=3     Ellipsoid          s=2 ok=1 f=9.89e-09 evals=  597465 r= 81 t= 147.3s FITNESS_BELOW_THRESH
+[41/500    1111s] tol=0.01, interval=3     Ellipsoid          s=3 ok=1 f=9.99e-09 evals=  599114 r= 81 t= 147.5s FITNESS_BELOW_THRESH
+[42/500    1113s] tol=0.01, interval=3     Ellipsoid          s=4 ok=1 f=9.99e-09 evals=  594218 r= 81 t= 145.8s FITNESS_BELOW_THRESH
+[43/500    1152s] tol=0.05, interval=auto  Ellipsoid          s=2 ok=1 f=9.97e-09 evals=  587469 r= 50 t=  91.1s FITNESS_BELOW_THRESH
+[44/500    1156s] tol=0.05, interval=auto  Ellipsoid          s=3 ok=1 f=9.89e-09 evals=  585650 r= 44 t=  91.7s FITNESS_BELOW_THRESH
+[45/500    1157s] tol=0.05, interval=auto  Ellipsoid          s=4 ok=1 f=1.00e-08 evals=  568956 r= 46 t=  85.6s FITNESS_BELOW_THRESH
+[46/500    1229s] tol=0.05, interval=1     Ellipsoid          s=0 ok=1 f=9.96e-09 evals=  286722 r= 72 t= 123.5s FITNESS_BELOW_THRESH
+[47/500    1240s] tol=0.05, interval=1     Ellipsoid          s=1 ok=1 f=9.78e-09 evals=  281792 r= 73 t= 128.6s FITNESS_BELOW_THRESH
+[48/500    1247s] tol=0.05, interval=1     Ellipsoid          s=2 ok=1 f=9.54e-09 evals=  286552 r= 72 t= 133.5s FITNESS_BELOW_THRESH
+[49/500    1267s] tol=0.05, interval=2     Ellipsoid          s=0 ok=1 f=9.73e-09 evals=  453322 r= 65 t= 110.4s FITNESS_BELOW_THRESH
+[50/500    1277s] tol=0.05, interval=1     Ellipsoid          s=3 ok=1 f=9.76e-09 evals=  275570 r= 71 t= 124.9s FITNESS_BELOW_THRESH
+[51/500    1285s] tol=0.05, interval=1     Ellipsoid          s=4 ok=1 f=9.94e-09 evals=  280602 r= 72 t= 129.1s FITNESS_BELOW_THRESH
+[52/500    1339s] tol=0.05, interval=2     Ellipsoid          s=1 ok=1 f=9.98e-09 evals=  442952 r= 61 t= 109.1s FITNESS_BELOW_THRESH
+[53/500    1344s] tol=0.05, interval=2     Ellipsoid          s=2 ok=1 f=9.96e-09 evals=  441932 r= 60 t= 104.9s FITNESS_BELOW_THRESH
+[54/500    1352s] tol=0.05, interval=2     Ellipsoid          s=3 ok=1 f=1.00e-08 evals=  450993 r= 62 t= 105.3s FITNESS_BELOW_THRESH
+[55/500    1365s] tol=0.05, interval=2     Ellipsoid          s=4 ok=1 f=9.95e-09 evals=  436815 r= 60 t=  98.2s FITNESS_BELOW_THRESH
+[56/500    1369s] tol=0.05, interval=3     Ellipsoid          s=0 ok=1 f=1.00e-08 evals=  588761 r= 55 t=  92.7s FITNESS_BELOW_THRESH
+[57/500    1381s] tol=0.05, interval=3     Ellipsoid          s=1 ok=1 f=1.00e-08 evals=  593742 r= 55 t=  95.8s FITNESS_BELOW_THRESH
+[58/500    1421s] tol=0.1, interval=auto   Ellipsoid          s=1 ok=1 f=9.98e-09 evals=  472022 r=  4 t=  52.1s FITNESS_BELOW_THRESH
+[59/500    1422s] tol=0.1, interval=auto   Ellipsoid          s=0 ok=1 f=9.99e-09 evals=  498712 r= 17 t=  56.9s FITNESS_BELOW_THRESH
+[60/500    1436s] tol=0.1, interval=auto   Ellipsoid          s=2 ok=1 f=9.94e-09 evals=  473178 r=  9 t=  54.7s FITNESS_BELOW_THRESH
+[61/500    1439s] tol=0.05, interval=3     Ellipsoid          s=2 ok=1 f=9.98e-09 evals=  602752 r= 56 t=  99.9s FITNESS_BELOW_THRESH
+[62/500    1442s] tol=0.05, interval=3     Ellipsoid          s=3 ok=1 f=1.00e-08 evals=  594524 r= 57 t=  97.1s FITNESS_BELOW_THRESH
+[63/500    1456s] tol=0.05, interval=3     Ellipsoid          s=4 ok=1 f=9.94e-09 evals=  606577 r= 57 t= 104.2s FITNESS_BELOW_THRESH
+[64/500    1474s] tol=0.1, interval=auto   Ellipsoid          s=3 ok=1 f=1.00e-08 evals=  484466 r= 21 t=  52.6s FITNESS_BELOW_THRESH
+[65/500    1478s] tol=0.1, interval=auto   Ellipsoid          s=4 ok=1 f=9.93e-09 evals=  484313 r=  4 t=  56.2s FITNESS_BELOW_THRESH
+[66/500    1486s] tol=0.1, interval=1      Ellipsoid          s=1 ok=1 f=9.75e-09 evals=  258927 r= 41 t=  47.2s FITNESS_BELOW_THRESH
+[67/500    1499s] tol=0.1, interval=1      Ellipsoid          s=0 ok=1 f=9.82e-09 evals=  268872 r= 54 t=  63.4s FITNESS_BELOW_THRESH
+[68/500    1512s] tol=0.1, interval=1      Ellipsoid          s=2 ok=1 f=9.99e-09 evals=  272493 r= 56 t=  70.1s FITNESS_BELOW_THRESH
+[69/500    1532s] tol=0.1, interval=1      Ellipsoid          s=3 ok=1 f=9.77e-09 evals=  277117 r= 54 t=  75.2s FITNESS_BELOW_THRESH
+[70/500    1535s] tol=0.1, interval=2      Ellipsoid          s=0 ok=1 f=9.97e-09 evals=  454580 r= 26 t=  56.8s FITNESS_BELOW_THRESH
+[71/500    1539s] tol=0.1, interval=2      Ellipsoid          s=1 ok=1 f=9.98e-09 evals=  434690 r= 26 t=  53.6s FITNESS_BELOW_THRESH
+[72/500    1545s] tol=0.1, interval=1      Ellipsoid          s=4 ok=1 f=9.92e-09 evals=  267682 r= 54 t=  71.4s FITNESS_BELOW_THRESH
+[73/500    1561s] tol=0.1, interval=2      Ellipsoid          s=2 ok=1 f=9.97e-09 evals=  446488 r= 31 t=  61.7s FITNESS_BELOW_THRESH
+[74/500    1566s] tol=0.1, interval=2      Ellipsoid          s=3 ok=1 f=1.00e-08 evals=  456739 r= 19 t=  54.7s FITNESS_BELOW_THRESH
+[75/500    1596s] tol=0.1, interval=2      Ellipsoid          s=4 ok=1 f=9.99e-09 evals=  443666 r= 30 t=  64.9s FITNESS_BELOW_THRESH
+[76/500    1603s] tol=0.1, interval=3      Ellipsoid          s=0 ok=1 f=9.99e-09 evals=  610538 r= 23 t=  67.3s FITNESS_BELOW_THRESH
+[77/500    1603s] tol=0.1, interval=3      Ellipsoid          s=1 ok=1 f=9.90e-09 evals=  607325 r= 25 t=  63.4s FITNESS_BELOW_THRESH
+[78/500    1617s] tol=0.3, interval=auto   Ellipsoid          s=0 ok=1 f=9.74e-09 evals=  211395 r=  2 t=  20.1s FITNESS_BELOW_THRESH
+[79/500    1619s] tol=0.1, interval=3      Ellipsoid          s=2 ok=1 f=9.97e-09 evals=  621231 r= 20 t=  73.5s FITNESS_BELOW_THRESH
+[80/500    1623s] tol=0.3, interval=auto   Ellipsoid          s=1 ok=1 f=9.37e-09 evals=  215220 r=  2 t=  20.2s FITNESS_BELOW_THRESH
+[81/500    1623s] tol=0.3, interval=auto   Ellipsoid          s=2 ok=1 f=9.47e-09 evals=  213503 r=  2 t=  20.1s FITNESS_BELOW_THRESH
+[82/500    1626s] tol=0.1, interval=3      Ellipsoid          s=3 ok=1 f=1.00e-08 evals=  599947 r= 27 t=  65.5s FITNESS_BELOW_THRESH
+[83/500    1630s] tol=0.1, interval=3      Ellipsoid          s=4 ok=1 f=9.99e-09 evals=  588047 r= 17 t=  63.6s FITNESS_BELOW_THRESH
+[84/500    1636s] tol=0.3, interval=auto   Ellipsoid          s=3 ok=1 f=9.75e-09 evals=  208301 r=  2 t=  19.4s FITNESS_BELOW_THRESH
+[85/500    1638s] tol=0.3, interval=auto   Ellipsoid          s=4 ok=1 f=9.94e-09 evals=  206907 r=  3 t=  19.0s FITNESS_BELOW_THRESH
+[86/500    1642s] tol=0.3, interval=1      Ellipsoid          s=0 ok=1 f=9.74e-09 evals=  211395 r=  2 t=  19.5s FITNESS_BELOW_THRESH
+[87/500    1643s] tol=0.3, interval=1      Ellipsoid          s=1 ok=1 f=9.37e-09 evals=  215220 r=  2 t=  19.8s FITNESS_BELOW_THRESH
+[88/500    1646s] tol=0.3, interval=1      Ellipsoid          s=2 ok=1 f=9.47e-09 evals=  213503 r=  2 t=  20.2s FITNESS_BELOW_THRESH
+[89/500    1649s] tol=0.3, interval=1      Ellipsoid          s=3 ok=1 f=9.75e-09 evals=  208301 r=  2 t=  19.1s FITNESS_BELOW_THRESH
+[90/500    1655s] tol=0.3, interval=1      Ellipsoid          s=4 ok=1 f=9.94e-09 evals=  206907 r=  3 t=  19.0s FITNESS_BELOW_THRESH
+[91/500    1665s] tol=0.3, interval=2      Ellipsoid          s=0 ok=1 f=9.10e-09 evals=  366911 r=  2 t=  27.1s FITNESS_BELOW_THRESH
+[92/500    1668s] tol=0.3, interval=2      Ellipsoid          s=1 ok=1 f=9.63e-09 evals=  347276 r=  2 t=  25.6s FITNESS_BELOW_THRESH
+[93/500    1669s] tol=0.3, interval=2      Ellipsoid          s=2 ok=1 f=9.97e-09 evals=  360757 r=  2 t=  26.5s FITNESS_BELOW_THRESH
+[94/500    1674s] tol=0.3, interval=2      Ellipsoid          s=3 ok=1 f=9.71e-09 evals=  372300 r=  2 t=  27.3s FITNESS_BELOW_THRESH
+[95/500    1676s] tol=0.3, interval=2      Ellipsoid          s=4 ok=1 f=9.76e-09 evals=  366350 r=  2 t=  26.6s FITNESS_BELOW_THRESH
+[96/500    1690s] tol=0.3, interval=3      Ellipsoid          s=0 ok=1 f=9.92e-09 evals=  517395 r=  2 t=  34.8s FITNESS_BELOW_THRESH
+[97/500    1699s] tol=0.3, interval=3      Ellipsoid          s=1 ok=1 f=9.80e-09 evals=  500939 r=  2 t=  34.3s FITNESS_BELOW_THRESH
+[98/500    1704s] tol=0.3, interval=3      Ellipsoid          s=2 ok=1 f=9.88e-09 evals=  511734 r=  2 t=  35.7s FITNESS_BELOW_THRESH
+[99/500    1705s] tol=0.3, interval=3      Ellipsoid          s=3 ok=1 f=9.88e-09 evals=  513162 r=  2 t=  35.4s FITNESS_BELOW_THRESH
+[100/500    1709s] tol=0.3, interval=3      Ellipsoid          s=4 ok=1 f=9.83e-09 evals=  503353 r=  2 t=  35.3s FITNESS_BELOW_THRESH
+[101/500    1759s] tol=0.001, interval=auto Rosenbrock         s=1 ok=1 f=9.78e-09 evals=  387634 r= 54 t=  68.9s FITNESS_BELOW_THRESH
+[102/500    1778s] tol=0.001, interval=auto Rosenbrock         s=0 ok=1 f=8.95e-09 evals=  582896 r= 50 t= 102.2s FITNESS_BELOW_THRESH
+[103/500    1794s] tol=0.001, interval=auto Rosenbrock         s=2 ok=1 f=8.96e-09 evals=  564162 r= 46 t=  94.7s FITNESS_BELOW_THRESH
+[104/500    1891s] tol=0.001, interval=auto Rosenbrock         s=4 ok=0 f=3.99e+00 evals= 1000008 r= 79 t= 186.6s MAX_ITER_REACHED
+[105/500    1897s] tol=0.001, interval=auto Rosenbrock         s=3 ok=0 f=3.99e+00 evals= 1000008 r= 78 t= 193.4s MAX_ITER_REACHED
+[106/500    1916s] tol=0.001, interval=1    Rosenbrock         s=1 ok=1 f=9.18e-09 evals=  285328 r= 65 t= 157.1s FITNESS_BELOW_THRESH
+[107/500    1917s] tol=0.001, interval=1    Rosenbrock         s=0 ok=1 f=9.95e-09 evals=  396627 r= 63 t= 208.0s FITNESS_BELOW_THRESH
+[108/500    1976s] tol=0.001, interval=1    Rosenbrock         s=2 ok=1 f=9.81e-09 evals=  390711 r= 61 t= 198.3s FITNESS_BELOW_THRESH
+[109/500    2028s] tol=0.001, interval=2    Rosenbrock         s=1 ok=1 f=9.03e-09 evals=  473756 r= 53 t= 112.0s FITNESS_BELOW_THRESH
+[110/500    2036s] tol=0.001, interval=2    Rosenbrock         s=2 ok=1 f=9.84e-09 evals=  480947 r= 54 t= 118.7s FITNESS_BELOW_THRESH
+[111/500    2133s] tol=0.001, interval=3    Rosenbrock         s=0 ok=1 f=9.13e-09 evals=  576028 r= 47 t=  96.8s FITNESS_BELOW_THRESH
+[112/500    2153s] tol=0.001, interval=2    Rosenbrock         s=4 ok=1 f=9.96e-09 evals=  473229 r= 54 t= 125.5s FITNESS_BELOW_THRESH
+[113/500    2196s] tol=0.001, interval=1    Rosenbrock         s=3 ok=0 f=3.99e+00 evals=  671551 r= 72 t= 401.9s SIGMA_BELOW_THRESH
+[114/500    2220s] tol=0.001, interval=3    Rosenbrock         s=1 ok=1 f=9.95e-09 evals=  546261 r= 48 t=  87.8s FITNESS_BELOW_THRESH
+[115/500    2223s] tol=0.001, interval=2    Rosenbrock         s=0 ok=0 f=3.99e+00 evals= 1000008 r= 88 t= 325.9s MAX_ITER_REACHED
+[116/500    2244s] tol=0.001, interval=3    Rosenbrock         s=2 ok=1 f=8.20e-09 evals=  555662 r= 48 t=  90.7s FITNESS_BELOW_THRESH
+[117/500    2293s] tol=0.001, interval=1    Rosenbrock         s=4 ok=0 f=3.99e+00 evals=  667148 r= 79 t= 402.2s SIGMA_BELOW_THRESH
+[118/500    2294s] tol=0.01, interval=auto  Rosenbrock         s=1 ok=1 f=9.84e-09 evals=  378131 r= 31 t=  50.4s FITNESS_BELOW_THRESH
+[119/500    2297s] tol=0.01, interval=auto  Rosenbrock         s=0 ok=1 f=9.66e-09 evals=  575399 r= 26 t=  74.4s FITNESS_BELOW_THRESH
+[120/500    2320s] tol=0.001, interval=3    Rosenbrock         s=4 ok=1 f=9.67e-09 evals=  548845 r= 50 t= 100.0s FITNESS_BELOW_THRESH
+[121/500    2356s] tol=0.001, interval=2    Rosenbrock         s=3 ok=0 f=3.99e+00 evals= 1000008 r= 91 t= 379.3s MAX_ITER_REACHED
+[122/500    2370s] tol=0.01, interval=auto  Rosenbrock         s=2 ok=1 f=9.50e-09 evals=  565692 r= 28 t=  76.2s FITNESS_BELOW_THRESH
+[123/500    2448s] tol=0.001, interval=3    Rosenbrock         s=3 ok=0 f=3.99e+00 evals= 1000008 r= 84 t= 251.9s MAX_ITER_REACHED
+[124/500    2464s] tol=0.01, interval=auto  Rosenbrock         s=3 ok=0 f=3.99e+00 evals= 1000008 r= 70 t= 169.4s MAX_ITER_REACHED
+[125/500    2468s] tol=0.01, interval=1     Rosenbrock         s=0 ok=1 f=9.51e-09 evals=  411859 r= 40 t= 148.0s FITNESS_BELOW_THRESH
+[126/500    2476s] tol=0.01, interval=auto  Rosenbrock         s=4 ok=0 f=3.99e+00 evals= 1000008 r= 73 t= 179.2s MAX_ITER_REACHED
+[127/500    2503s] tol=0.01, interval=1     Rosenbrock         s=1 ok=1 f=9.50e-09 evals=  287317 r= 55 t= 147.3s FITNESS_BELOW_THRESH
+[128/500    2515s] tol=0.01, interval=1     Rosenbrock         s=2 ok=1 f=9.81e-09 evals=  398769 r= 37 t= 145.8s FITNESS_BELOW_THRESH
+[129/500    2551s] tol=0.01, interval=2     Rosenbrock         s=1 ok=1 f=9.68e-09 evals=  503540 r= 29 t=  74.7s FITNESS_BELOW_THRESH
+[130/500    2577s] tol=0.01, interval=2     Rosenbrock         s=2 ok=1 f=9.22e-09 evals=  511598 r= 31 t=  74.3s FITNESS_BELOW_THRESH
+[131/500    2623s] tol=0.01, interval=2     Rosenbrock         s=4 ok=1 f=9.63e-09 evals=  510442 r= 28 t=  72.2s FITNESS_BELOW_THRESH
+[132/500    2647s] tol=0.01, interval=3     Rosenbrock         s=0 ok=1 f=9.94e-09 evals=  634661 r= 14 t=  70.1s FITNESS_BELOW_THRESH
+[133/500    2692s] tol=0.01, interval=3     Rosenbrock         s=1 ok=1 f=9.52e-09 evals=  600984 r= 26 t=  68.3s FITNESS_BELOW_THRESH
+[134/500    2716s] tol=0.01, interval=3     Rosenbrock         s=2 ok=1 f=9.01e-09 evals=  608056 r= 10 t=  68.5s FITNESS_BELOW_THRESH
+[135/500    2729s] tol=0.01, interval=2     Rosenbrock         s=0 ok=0 f=3.99e+00 evals= 1000008 r= 78 t= 261.0s MAX_ITER_REACHED
+[136/500    2778s] tol=0.01, interval=1     Rosenbrock         s=4 ok=0 f=3.99e+00 evals=  673778 r= 58 t= 314.0s SIGMA_BELOW_THRESH
+[137/500    2782s] tol=0.01, interval=1     Rosenbrock         s=3 ok=0 f=3.99e+00 evals=  674883 r= 55 t= 334.3s SIGMA_BELOW_THRESH
+[138/500    2786s] tol=0.01, interval=3     Rosenbrock         s=4 ok=1 f=9.75e-09 evals=  604520 r= 27 t=  70.6s FITNESS_BELOW_THRESH
+[139/500    2799s] tol=0.05, interval=auto  Rosenbrock         s=0 ok=1 f=9.92e-09 evals=  684964 r=  5 t=  70.0s FITNESS_BELOW_THRESH
+[140/500    2826s] tol=0.05, interval=auto  Rosenbrock         s=1 ok=1 f=9.98e-09 evals=  446726 r=  9 t=  48.2s FITNESS_BELOW_THRESH
+[141/500    2847s] tol=0.01, interval=2     Rosenbrock         s=3 ok=0 f=3.99e+00 evals= 1000008 r= 77 t= 331.7s MAX_ITER_REACHED
+[142/500    2856s] tol=0.05, interval=auto  Rosenbrock         s=2 ok=1 f=9.83e-09 evals=  672010 r=  5 t=  73.3s FITNESS_BELOW_THRESH
+[143/500    2867s] tol=0.01, interval=3     Rosenbrock         s=3 ok=0 f=3.99e+00 evals= 1000008 r= 72 t= 175.8s MAX_ITER_REACHED
+[144/500    2886s] tol=0.05, interval=1     Rosenbrock         s=0 ok=1 f=9.94e-09 evals=  479196 r=  4 t=  60.0s FITNESS_BELOW_THRESH
+[145/500    2890s] tol=0.05, interval=auto  Rosenbrock         s=3 ok=0 f=3.99e+00 evals= 1000008 r=  5 t= 103.4s MAX_ITER_REACHED
+[146/500    2890s] tol=0.05, interval=1     Rosenbrock         s=1 ok=1 f=9.48e-09 evals=  348840 r=  7 t=  43.0s FITNESS_BELOW_THRESH
+[147/500    2902s] tol=0.05, interval=auto  Rosenbrock         s=4 ok=0 f=3.99e+00 evals= 1000008 r=  5 t= 102.8s MAX_ITER_REACHED
+[148/500    2912s] tol=0.05, interval=1     Rosenbrock         s=2 ok=1 f=9.46e-09 evals=  473263 r=  3 t=  56.2s FITNESS_BELOW_THRESH
+[149/500    2949s] tol=0.05, interval=2     Rosenbrock         s=1 ok=1 f=9.97e-09 evals=  636072 r=  5 t=  59.3s FITNESS_BELOW_THRESH
+[150/500    2963s] tol=0.05, interval=2     Rosenbrock         s=2 ok=1 f=9.91e-09 evals=  651542 r=  5 t=  60.3s FITNESS_BELOW_THRESH
+[151/500    2982s] tol=0.05, interval=2     Rosenbrock         s=0 ok=0 f=3.99e+00 evals= 1000008 r=  6 t=  91.7s MAX_ITER_REACHED
+[152/500    2997s] tol=0.05, interval=1     Rosenbrock         s=3 ok=0 f=3.99e+00 evals=  690676 r= 17 t= 129.3s SIGMA_BELOW_THRESH
+[153/500    3007s] tol=0.05, interval=2     Rosenbrock         s=4 ok=1 f=9.86e-09 evals=  637823 r=  5 t=  57.3s FITNESS_BELOW_THRESH
+[154/500    3029s] tol=0.05, interval=3     Rosenbrock         s=0 ok=1 f=9.81e-09 evals=  800564 r=  5 t=  66.3s FITNESS_BELOW_THRESH
+[155/500    3038s] tol=0.05, interval=1     Rosenbrock         s=4 ok=0 f=3.99e+00 evals=  686783 r= 21 t= 151.6s SIGMA_BELOW_THRESH
+[156/500    3047s] tol=0.05, interval=3     Rosenbrock         s=1 ok=1 f=9.75e-09 evals=  788052 r=  6 t=  65.6s FITNESS_BELOW_THRESH
+[157/500    3060s] tol=0.05, interval=3     Rosenbrock         s=2 ok=1 f=9.79e-09 evals=  766632 r=  6 t=  63.2s FITNESS_BELOW_THRESH
+[158/500    3088s] tol=0.05, interval=3     Rosenbrock         s=3 ok=0 f=3.99e+00 evals= 1000008 r=  5 t=  81.4s MAX_ITER_REACHED
+[159/500    3090s] tol=0.1, interval=auto   Rosenbrock         s=1 ok=1 f=9.46e-09 evals=  474436 r=  6 t=  43.2s FITNESS_BELOW_THRESH
+[160/500    3096s] tol=0.05, interval=3     Rosenbrock         s=4 ok=1 f=9.87e-09 evals=  808707 r=  5 t=  66.9s FITNESS_BELOW_THRESH
+[161/500    3101s] tol=0.1, interval=auto   Rosenbrock         s=0 ok=1 f=9.98e-09 evals=  715768 r=  3 t=  63.2s FITNESS_BELOW_THRESH
+[162/500    3115s] tol=0.05, interval=2     Rosenbrock         s=3 ok=0 f=3.99e+00 evals= 1000008 r= 61 t= 203.7s MAX_ITER_REACHED
+[163/500    3122s] tol=0.1, interval=auto   Rosenbrock         s=2 ok=1 f=9.90e-09 evals=  707965 r=  3 t=  62.1s FITNESS_BELOW_THRESH
+[164/500    3140s] tol=0.1, interval=1      Rosenbrock         s=1 ok=1 f=8.63e-09 evals=  381684 r=  8 t=  39.5s FITNESS_BELOW_THRESH
+[165/500    3151s] tol=0.1, interval=1      Rosenbrock         s=0 ok=1 f=9.78e-09 evals=  519962 r=  2 t=  54.9s FITNESS_BELOW_THRESH
+[166/500    3170s] tol=0.1, interval=1      Rosenbrock         s=2 ok=1 f=9.53e-09 evals=  510085 r=  2 t=  54.3s FITNESS_BELOW_THRESH
+[167/500    3180s] tol=0.1, interval=auto   Rosenbrock         s=3 ok=0 f=3.99e+00 evals= 1000008 r=  2 t=  92.2s MAX_ITER_REACHED
+[168/500    3182s] tol=0.1, interval=auto   Rosenbrock         s=4 ok=0 f=3.99e+00 evals= 1000008 r=  2 t=  91.9s MAX_ITER_REACHED
+[169/500    3194s] tol=0.1, interval=1      Rosenbrock         s=3 ok=0 f=3.99e+00 evals=  694178 r=  2 t=  71.9s SIGMA_BELOW_THRESH
+[170/500    3214s] tol=0.1, interval=1      Rosenbrock         s=4 ok=0 f=3.99e+00 evals=  695572 r=  2 t=  73.4s SIGMA_BELOW_THRESH
+[171/500    3232s] tol=0.1, interval=2      Rosenbrock         s=1 ok=1 f=9.98e-09 evals=  699822 r=  3 t=  62.8s FITNESS_BELOW_THRESH
+[172/500    3240s] tol=0.1, interval=2      Rosenbrock         s=0 ok=0 f=3.99e+00 evals= 1000008 r=  3 t=  89.2s MAX_ITER_REACHED
+[173/500    3244s] tol=0.1, interval=2      Rosenbrock         s=2 ok=1 f=9.96e-09 evals=  714901 r=  3 t=  63.5s FITNESS_BELOW_THRESH
+[174/500    3256s] tol=0.1, interval=2      Rosenbrock         s=4 ok=1 f=9.88e-09 evals=  701675 r=  3 t=  62.4s FITNESS_BELOW_THRESH
+[175/500    3275s] tol=0.1, interval=2      Rosenbrock         s=3 ok=0 f=3.99e+00 evals= 1000008 r=  7 t=  92.5s MAX_ITER_REACHED
+[176/500    3285s] tol=0.1, interval=3      Rosenbrock         s=0 ok=1 f=9.85e-09 evals=  880447 r=  3 t=  71.1s FITNESS_BELOW_THRESH
+[177/500    3303s] tol=0.1, interval=3      Rosenbrock         s=1 ok=1 f=9.94e-09 evals=  862325 r=  3 t=  70.6s FITNESS_BELOW_THRESH
+[178/500    3308s] tol=0.1, interval=3      Rosenbrock         s=2 ok=1 f=9.96e-09 evals=  846022 r=  3 t=  68.1s FITNESS_BELOW_THRESH
+[179/500    3322s] tol=0.1, interval=3      Rosenbrock         s=3 ok=0 f=3.99e+00 evals= 1000008 r=  3 t=  78.6s MAX_ITER_REACHED
+[180/500    3324s] tol=0.1, interval=3      Rosenbrock         s=4 ok=1 f=8.74e-09 evals=  855559 r=  3 t=  67.9s FITNESS_BELOW_THRESH
+[181/500    3329s] tol=0.3, interval=auto   Rosenbrock         s=1 ok=1 f=9.94e-09 evals=  444091 r=  2 t=  44.1s FITNESS_BELOW_THRESH
+[182/500    3332s] tol=0.3, interval=auto   Rosenbrock         s=0 ok=1 f=9.95e-09 evals=  578612 r=  2 t=  57.2s FITNESS_BELOW_THRESH
+[183/500    3361s] tol=0.3, interval=auto   Rosenbrock         s=2 ok=1 f=9.58e-09 evals=  574872 r=  2 t=  58.4s FITNESS_BELOW_THRESH
+[184/500    3378s] tol=0.3, interval=1      Rosenbrock         s=1 ok=1 f=9.94e-09 evals=  444091 r=  2 t=  48.7s FITNESS_BELOW_THRESH
+[185/500    3381s] tol=0.3, interval=auto   Rosenbrock         s=3 ok=0 f=3.99e+00 evals=  695912 r=  2 t=  72.9s SIGMA_BELOW_THRESH
+[186/500    3387s] tol=0.3, interval=1      Rosenbrock         s=0 ok=1 f=9.95e-09 evals=  578612 r=  2 t=  63.1s FITNESS_BELOW_THRESH
+[187/500    3396s] tol=0.3, interval=1      Rosenbrock         s=2 ok=1 f=9.58e-09 evals=  574872 r=  2 t=  64.4s FITNESS_BELOW_THRESH
+[188/500    3399s] tol=0.3, interval=auto   Rosenbrock         s=4 ok=0 f=3.99e+00 evals=  697000 r=  2 t=  76.3s SIGMA_BELOW_THRESH
+[189/500    3441s] tol=0.3, interval=1      Rosenbrock         s=3 ok=0 f=3.99e+00 evals=  695912 r=  2 t=  79.7s SIGMA_BELOW_THRESH
+[190/500    3457s] tol=0.3, interval=1      Rosenbrock         s=4 ok=0 f=3.99e+00 evals=  697000 r=  2 t=  79.3s SIGMA_BELOW_THRESH
+[191/500    3463s] tol=0.3, interval=2      Rosenbrock         s=1 ok=1 f=9.91e-09 evals=  785910 r=  2 t=  75.4s FITNESS_BELOW_THRESH
+[192/500    3472s] tol=0.3, interval=2      Rosenbrock         s=2 ok=1 f=9.76e-09 evals=  803420 r=  2 t=  75.5s FITNESS_BELOW_THRESH
+[193/500    3476s] tol=0.3, interval=2      Rosenbrock         s=0 ok=0 f=3.99e+00 evals= 1000008 r=  2 t=  95.3s MAX_ITER_REACHED
+[194/500    3493s] tol=0.3, interval=2      Rosenbrock         s=3 ok=0 f=3.99e+00 evals= 1000008 r=  2 t=  94.2s MAX_ITER_REACHED
+[195/500    3515s] tol=0.3, interval=2      Rosenbrock         s=4 ok=1 f=9.53e-09 evals=  793798 r=  2 t=  73.9s FITNESS_BELOW_THRESH
+[196/500    3542s] tol=0.3, interval=3      Rosenbrock         s=0 ok=1 f=9.80e-09 evals=  986697 r=  2 t=  85.0s FITNESS_BELOW_THRESH
+[197/500    3546s] tol=0.3, interval=3      Rosenbrock         s=1 ok=1 f=9.67e-09 evals=  951235 r=  2 t=  82.8s FITNESS_BELOW_THRESH
+[198/500    3550s] tol=0.001, interval=auto Rotated Ellipsoid  s=0 ok=1 f=1.00e-08 evals=  316064 r= 19 t=  34.6s FITNESS_BELOW_THRESH
+[199/500    3557s] tol=0.3, interval=3      Rosenbrock         s=2 ok=1 f=9.93e-09 evals=  973794 r=  2 t=  84.9s FITNESS_BELOW_THRESH
+[200/500    3565s] tol=0.3, interval=3      Rosenbrock         s=3 ok=0 f=3.99e+00 evals= 1000008 r=  2 t=  88.6s MAX_ITER_REACHED
+[201/500    3578s] tol=0.3, interval=3      Rosenbrock         s=4 ok=1 f=9.57e-09 evals=  957372 r=  2 t=  85.1s FITNESS_BELOW_THRESH
+[202/500    3581s] tol=0.001, interval=auto Rotated Ellipsoid  s=1 ok=1 f=9.77e-09 evals=  321385 r= 26 t=  38.9s FITNESS_BELOW_THRESH
+[203/500    3586s] tol=0.001, interval=auto Rotated Ellipsoid  s=3 ok=1 f=9.88e-09 evals=  310420 r= 27 t=  36.1s FITNESS_BELOW_THRESH
+[204/500    3587s] tol=0.001, interval=auto Rotated Ellipsoid  s=2 ok=1 f=9.97e-09 evals=  325550 r= 34 t=  41.1s FITNESS_BELOW_THRESH
+[205/500    3596s] tol=0.001, interval=auto Rotated Ellipsoid  s=4 ok=1 f=9.98e-09 evals=  318971 r= 34 t=  39.1s FITNESS_BELOW_THRESH
+[206/500    3626s] tol=0.001, interval=2    Rotated Ellipsoid  s=0 ok=1 f=9.90e-09 evals=  309536 r= 24 t=  30.1s FITNESS_BELOW_THRESH
+[207/500    3663s] tol=0.001, interval=2    Rotated Ellipsoid  s=1 ok=1 f=9.97e-09 evals=  333659 r= 35 t=  36.4s FITNESS_BELOW_THRESH
+[208/500    3667s] tol=0.001, interval=1    Rotated Ellipsoid  s=0 ok=1 f=9.93e-09 evals=  267665 r= 62 t= 102.3s FITNESS_BELOW_THRESH
+[209/500    3685s] tol=0.001, interval=1    Rotated Ellipsoid  s=2 ok=1 f=1.00e-08 evals=  263976 r= 63 t= 104.6s FITNESS_BELOW_THRESH
+[210/500    3689s] tol=0.001, interval=1    Rotated Ellipsoid  s=3 ok=1 f=9.81e-09 evals=  257363 r= 61 t= 102.8s FITNESS_BELOW_THRESH
+[211/500    3689s] tol=0.001, interval=1    Rotated Ellipsoid  s=1 ok=1 f=9.92e-09 evals=  266985 r= 68 t= 111.3s FITNESS_BELOW_THRESH
+[212/500    3700s] tol=0.001, interval=2    Rotated Ellipsoid  s=2 ok=1 f=9.77e-09 evals=  315588 r= 34 t=  37.0s FITNESS_BELOW_THRESH
+[213/500    3701s] tol=0.001, interval=2    Rotated Ellipsoid  s=3 ok=1 f=1.00e-08 evals=  329120 r= 21 t=  33.7s FITNESS_BELOW_THRESH
+[214/500    3701s] tol=0.001, interval=1    Rotated Ellipsoid  s=4 ok=1 f=9.63e-09 evals=  249305 r= 62 t= 114.4s FITNESS_BELOW_THRESH
+[215/500    3719s] tol=0.001, interval=2    Rotated Ellipsoid  s=4 ok=1 f=9.95e-09 evals=  330956 r= 22 t=  33.2s FITNESS_BELOW_THRESH
+[216/500    3720s] tol=0.001, interval=3    Rotated Ellipsoid  s=0 ok=1 f=9.86e-09 evals=  376006 r=  6 t=  31.2s FITNESS_BELOW_THRESH
+[217/500    3721s] tol=0.001, interval=3    Rotated Ellipsoid  s=1 ok=1 f=9.98e-09 evals=  386257 r=  4 t=  31.6s FITNESS_BELOW_THRESH
+[218/500    3729s] tol=0.001, interval=3    Rotated Ellipsoid  s=2 ok=1 f=9.93e-09 evals=  363426 r=  7 t=  29.8s FITNESS_BELOW_THRESH
+[219/500    3733s] tol=0.001, interval=3    Rotated Ellipsoid  s=3 ok=1 f=9.99e-09 evals=  385458 r= 10 t=  31.8s FITNESS_BELOW_THRESH
+[220/500    3735s] tol=0.001, interval=3    Rotated Ellipsoid  s=4 ok=1 f=9.99e-09 evals=  421787 r=  2 t=  33.5s FITNESS_BELOW_THRESH
+[221/500    3748s] tol=0.01, interval=auto  Rotated Ellipsoid  s=0 ok=1 f=1.00e-08 evals=  315503 r= 16 t=  29.7s FITNESS_BELOW_THRESH
+[222/500    3751s] tol=0.01, interval=auto  Rotated Ellipsoid  s=2 ok=1 f=9.81e-09 evals=  310352 r= 20 t=  30.0s FITNESS_BELOW_THRESH
+[223/500    3753s] tol=0.01, interval=auto  Rotated Ellipsoid  s=1 ok=1 f=9.98e-09 evals=  336651 r= 19 t=  32.8s FITNESS_BELOW_THRESH
+[224/500    3760s] tol=0.01, interval=auto  Rotated Ellipsoid  s=3 ok=1 f=9.96e-09 evals=  322660 r= 18 t=  30.5s FITNESS_BELOW_THRESH
+[225/500    3763s] tol=0.01, interval=auto  Rotated Ellipsoid  s=4 ok=1 f=9.98e-09 evals=  318002 r= 19 t=  30.1s FITNESS_BELOW_THRESH
+[226/500    3790s] tol=0.01, interval=2     Rotated Ellipsoid  s=0 ok=1 f=1.00e-08 evals=  306646 r= 15 t=  27.6s FITNESS_BELOW_THRESH
+[227/500    3800s] tol=0.01, interval=1     Rotated Ellipsoid  s=0 ok=1 f=9.93e-09 evals=  274108 r= 47 t=  65.5s FITNESS_BELOW_THRESH
+[228/500    3813s] tol=0.01, interval=1     Rotated Ellipsoid  s=3 ok=1 f=9.92e-09 evals=  282914 r= 38 t=  60.2s FITNESS_BELOW_THRESH
+[229/500    3821s] tol=0.01, interval=2     Rotated Ellipsoid  s=1 ok=1 f=1.00e-08 evals=  328712 r= 14 t=  31.0s FITNESS_BELOW_THRESH
+[230/500    3825s] tol=0.01, interval=1     Rotated Ellipsoid  s=2 ok=1 f=9.98e-09 evals=  286841 r= 47 t=  73.9s FITNESS_BELOW_THRESH
+[231/500    3828s] tol=0.01, interval=1     Rotated Ellipsoid  s=1 ok=1 f=9.98e-09 evals=  275281 r= 49 t=  80.1s FITNESS_BELOW_THRESH
+[232/500    3833s] tol=0.01, interval=2     Rotated Ellipsoid  s=2 ok=1 f=9.86e-09 evals=  329392 r= 17 t=  33.2s FITNESS_BELOW_THRESH
+[233/500    3839s] tol=0.01, interval=1     Rotated Ellipsoid  s=4 ok=1 f=9.98e-09 evals=  273819 r= 50 t=  78.7s FITNESS_BELOW_THRESH
+[234/500    3850s] tol=0.01, interval=2     Rotated Ellipsoid  s=3 ok=1 f=9.93e-09 evals=  351815 r= 13 t=  36.9s FITNESS_BELOW_THRESH
+[235/500    3858s] tol=0.01, interval=2     Rotated Ellipsoid  s=4 ok=1 f=9.95e-09 evals=  331925 r= 18 t=  36.4s FITNESS_BELOW_THRESH
+[236/500    3858s] tol=0.01, interval=3     Rotated Ellipsoid  s=0 ok=1 f=9.99e-09 evals=  382347 r=  4 t=  33.1s FITNESS_BELOW_THRESH
+[237/500    3860s] tol=0.01, interval=3     Rotated Ellipsoid  s=1 ok=1 f=9.95e-09 evals=  375224 r=  5 t=  31.8s FITNESS_BELOW_THRESH
+[238/500    3866s] tol=0.01, interval=3     Rotated Ellipsoid  s=2 ok=1 f=9.99e-09 evals=  376975 r=  5 t=  32.5s FITNESS_BELOW_THRESH
+[239/500    3871s] tol=0.01, interval=3     Rotated Ellipsoid  s=3 ok=1 f=9.97e-09 evals=  381004 r=  6 t=  32.2s FITNESS_BELOW_THRESH
+[240/500    3877s] tol=0.01, interval=3     Rotated Ellipsoid  s=4 ok=1 f=9.98e-09 evals=  343791 r=  9 t=  27.1s FITNESS_BELOW_THRESH
+[241/500    3887s] tol=0.05, interval=auto  Rotated Ellipsoid  s=1 ok=1 f=9.98e-09 evals=  321572 r= 10 t=  29.4s FITNESS_BELOW_THRESH
+[242/500    3891s] tol=0.05, interval=auto  Rotated Ellipsoid  s=0 ok=1 f=9.93e-09 evals=  358785 r=  6 t=  32.8s FITNESS_BELOW_THRESH
+[243/500    3891s] tol=0.05, interval=auto  Rotated Ellipsoid  s=2 ok=1 f=9.99e-09 evals=  344947 r=  9 t=  31.0s FITNESS_BELOW_THRESH
+[244/500    3897s] tol=0.05, interval=auto  Rotated Ellipsoid  s=3 ok=1 f=9.93e-09 evals=  349384 r=  6 t=  31.4s FITNESS_BELOW_THRESH
+[245/500    3903s] tol=0.05, interval=auto  Rotated Ellipsoid  s=4 ok=1 f=9.83e-09 evals=  345831 r=  8 t=  31.9s FITNESS_BELOW_THRESH
+[246/500    3912s] tol=0.05, interval=1     Rotated Ellipsoid  s=0 ok=1 f=9.94e-09 evals=  297551 r= 15 t=  35.6s FITNESS_BELOW_THRESH
+[247/500    3928s] tol=0.05, interval=1     Rotated Ellipsoid  s=1 ok=1 f=9.90e-09 evals=  298707 r= 20 t=  40.5s FITNESS_BELOW_THRESH
+[248/500    3928s] tol=0.05, interval=1     Rotated Ellipsoid  s=3 ok=1 f=9.92e-09 evals=  314109 r= 13 t=  37.2s FITNESS_BELOW_THRESH
+[249/500    3929s] tol=0.05, interval=1     Rotated Ellipsoid  s=2 ok=1 f=9.82e-09 evals=  302855 r= 17 t=  38.6s FITNESS_BELOW_THRESH
+[250/500    3931s] tol=0.05, interval=2     Rotated Ellipsoid  s=0 ok=1 f=9.98e-09 evals=  331840 r=  5 t=  27.9s FITNESS_BELOW_THRESH
+[251/500    3936s] tol=0.05, interval=1     Rotated Ellipsoid  s=4 ok=1 f=9.96e-09 evals=  314279 r= 18 t=  38.9s FITNESS_BELOW_THRESH
+[252/500    3941s] tol=0.05, interval=2     Rotated Ellipsoid  s=1 ok=1 f=9.73e-09 evals=  338504 r=  8 t=  29.0s FITNESS_BELOW_THRESH
+[253/500    3957s] tol=0.05, interval=2     Rotated Ellipsoid  s=3 ok=1 f=9.99e-09 evals=  346511 r=  8 t=  28.2s FITNESS_BELOW_THRESH
+[254/500    3958s] tol=0.05, interval=2     Rotated Ellipsoid  s=4 ok=1 f=9.89e-09 evals=  344930 r=  7 t=  28.7s FITNESS_BELOW_THRESH
+[255/500    3958s] tol=0.05, interval=2     Rotated Ellipsoid  s=2 ok=1 f=9.95e-09 evals=  374085 r=  6 t=  30.3s FITNESS_BELOW_THRESH
+[256/500    3958s] tol=0.05, interval=3     Rotated Ellipsoid  s=0 ok=1 f=1.00e-08 evals=  389657 r=  3 t=  27.8s FITNESS_BELOW_THRESH
+[257/500    3964s] tol=0.05, interval=3     Rotated Ellipsoid  s=1 ok=1 f=9.99e-09 evals=  392938 r=  4 t=  28.2s FITNESS_BELOW_THRESH
+[258/500    3971s] tol=0.05, interval=3     Rotated Ellipsoid  s=2 ok=1 f=9.96e-09 evals=  407354 r=  3 t=  29.3s FITNESS_BELOW_THRESH
+[259/500    3984s] tol=0.05, interval=3     Rotated Ellipsoid  s=3 ok=1 f=9.99e-09 evals=  392615 r=  2 t=  27.7s FITNESS_BELOW_THRESH
+[260/500    3989s] tol=0.05, interval=3     Rotated Ellipsoid  s=4 ok=1 f=9.99e-09 evals=  427618 r=  4 t=  30.8s FITNESS_BELOW_THRESH
+[261/500    3991s] tol=0.1, interval=auto   Rotated Ellipsoid  s=1 ok=1 f=9.99e-09 evals=  364344 r=  4 t=  32.7s FITNESS_BELOW_THRESH
+[262/500    3998s] tol=0.1, interval=auto   Rotated Ellipsoid  s=0 ok=1 f=9.99e-09 evals=  411315 r=  2 t=  39.5s FITNESS_BELOW_THRESH
+[263/500    4004s] tol=0.1, interval=auto   Rotated Ellipsoid  s=2 ok=1 f=9.98e-09 evals=  425238 r=  4 t=  39.8s FITNESS_BELOW_THRESH
+[264/500    4007s] tol=0.1, interval=auto   Rotated Ellipsoid  s=3 ok=1 f=9.96e-09 evals=  403784 r=  6 t=  36.3s FITNESS_BELOW_THRESH
+[265/500    4013s] tol=0.1, interval=auto   Rotated Ellipsoid  s=4 ok=1 f=9.96e-09 evals=  336821 r=  7 t=  29.0s FITNESS_BELOW_THRESH
+[266/500    4024s] tol=0.1, interval=1      Rotated Ellipsoid  s=0 ok=1 f=9.78e-09 evals=  361590 r=  7 t=  35.3s FITNESS_BELOW_THRESH
+[267/500    4026s] tol=0.1, interval=1      Rotated Ellipsoid  s=1 ok=1 f=9.85e-09 evals=  357765 r=  4 t=  35.4s FITNESS_BELOW_THRESH
+[268/500    4031s] tol=0.1, interval=1      Rotated Ellipsoid  s=2 ok=1 f=9.95e-09 evals=  333353 r=  9 t=  33.9s FITNESS_BELOW_THRESH
+[269/500    4039s] tol=0.1, interval=1      Rotated Ellipsoid  s=3 ok=1 f=9.98e-09 evals=  369937 r=  4 t=  35.1s FITNESS_BELOW_THRESH
+[270/500    4041s] tol=0.1, interval=1      Rotated Ellipsoid  s=4 ok=1 f=9.98e-09 evals=  330548 r=  5 t=  34.0s FITNESS_BELOW_THRESH
+[271/500    4041s] tol=0.1, interval=2      Rotated Ellipsoid  s=0 ok=1 f=9.99e-09 evals=  362984 r=  3 t=  27.8s FITNESS_BELOW_THRESH
+[272/500    4053s] tol=0.1, interval=2      Rotated Ellipsoid  s=1 ok=1 f=9.96e-09 evals=  371569 r=  4 t=  29.0s FITNESS_BELOW_THRESH
+[273/500    4056s] tol=0.1, interval=2      Rotated Ellipsoid  s=2 ok=1 f=9.88e-09 evals=  394349 r=  4 t=  29.7s FITNESS_BELOW_THRESH
+[274/500    4060s] tol=0.1, interval=2      Rotated Ellipsoid  s=3 ok=1 f=9.91e-09 evals=  379253 r=  5 t=  28.4s FITNESS_BELOW_THRESH
+[275/500    4066s] tol=0.1, interval=3      Rotated Ellipsoid  s=0 ok=1 f=9.99e-09 evals=  369546 r=  2 t=  25.1s FITNESS_BELOW_THRESH
+[276/500    4067s] tol=0.1, interval=2      Rotated Ellipsoid  s=4 ok=1 f=9.98e-09 evals=  357119 r=  4 t=  27.7s FITNESS_BELOW_THRESH
+[277/500    4070s] tol=0.1, interval=3      Rotated Ellipsoid  s=1 ok=1 f=9.96e-09 evals=  425255 r=  2 t=  29.2s FITNESS_BELOW_THRESH
+[278/500    4081s] tol=0.1, interval=3      Rotated Ellipsoid  s=2 ok=1 f=9.98e-09 evals=  408374 r=  2 t=  28.2s FITNESS_BELOW_THRESH
+[279/500    4083s] tol=0.1, interval=3      Rotated Ellipsoid  s=3 ok=1 f=9.93e-09 evals=  381888 r=  3 t=  26.4s FITNESS_BELOW_THRESH
+[280/500    4089s] tol=0.1, interval=3      Rotated Ellipsoid  s=4 ok=1 f=1.00e-08 evals=  425697 r=  3 t=  29.3s FITNESS_BELOW_THRESH
+[281/500    4103s] tol=0.3, interval=auto   Rotated Ellipsoid  s=0 ok=1 f=9.99e-09 evals=  390966 r=  2 t=  36.6s FITNESS_BELOW_THRESH
+[282/500    4103s] tol=0.3, interval=auto   Rotated Ellipsoid  s=1 ok=1 f=9.97e-09 evals=  383180 r=  3 t=  35.7s FITNESS_BELOW_THRESH
+[283/500    4109s] tol=0.3, interval=auto   Rotated Ellipsoid  s=2 ok=1 f=9.94e-09 evals=  425612 r=  2 t=  39.1s FITNESS_BELOW_THRESH
+[284/500    4120s] tol=0.3, interval=auto   Rotated Ellipsoid  s=4 ok=1 f=9.96e-09 evals=  396423 r=  2 t=  37.0s FITNESS_BELOW_THRESH
+[285/500    4123s] tol=0.3, interval=auto   Rotated Ellipsoid  s=3 ok=1 f=9.98e-09 evals=  430848 r=  2 t=  41.7s FITNESS_BELOW_THRESH
+[286/500    4127s] tol=0.3, interval=1      Rotated Ellipsoid  s=0 ok=1 f=9.99e-09 evals=  390966 r=  2 t=  37.7s FITNESS_BELOW_THRESH
+[287/500    4141s] tol=0.3, interval=1      Rotated Ellipsoid  s=1 ok=1 f=9.97e-09 evals=  383180 r=  3 t=  37.9s FITNESS_BELOW_THRESH
+[288/500    4144s] tol=0.3, interval=1      Rotated Ellipsoid  s=2 ok=1 f=9.94e-09 evals=  425612 r=  2 t=  41.4s FITNESS_BELOW_THRESH
+[289/500    4151s] tol=0.3, interval=1      Rotated Ellipsoid  s=3 ok=1 f=9.98e-09 evals=  430848 r=  2 t=  41.8s FITNESS_BELOW_THRESH
+[290/500    4152s] tol=0.3, interval=2      Rotated Ellipsoid  s=0 ok=1 f=9.94e-09 evals=  381922 r=  2 t=  29.3s FITNESS_BELOW_THRESH
+[291/500    4157s] tol=0.3, interval=1      Rotated Ellipsoid  s=4 ok=1 f=9.96e-09 evals=  396423 r=  2 t=  37.6s FITNESS_BELOW_THRESH
+[292/500    4160s] tol=0.3, interval=2      Rotated Ellipsoid  s=1 ok=1 f=9.79e-09 evals=  433670 r=  2 t=  32.7s FITNESS_BELOW_THRESH
+[293/500    4171s] tol=0.3, interval=2      Rotated Ellipsoid  s=2 ok=1 f=9.93e-09 evals=  411536 r=  2 t=  30.3s FITNESS_BELOW_THRESH
+[294/500    4175s] tol=0.3, interval=2      Rotated Ellipsoid  s=3 ok=1 f=9.95e-09 evals=  420614 r=  2 t=  30.7s FITNESS_BELOW_THRESH
+[295/500    4179s] tol=0.3, interval=3      Rotated Ellipsoid  s=0 ok=1 f=9.97e-09 evals=  396168 r=  2 t=  26.9s FITNESS_BELOW_THRESH
+[296/500    4181s] tol=0.3, interval=2      Rotated Ellipsoid  s=4 ok=1 f=9.93e-09 evals=  401489 r=  2 t=  29.9s FITNESS_BELOW_THRESH
+[297/500    4183s] tol=0.001, interval=auto Bent-Cigar         s=0 ok=1 f=8.94e-09 evals=   35768 r=  1 t=   3.4s FITNESS_BELOW_THRESH
+[298/500    4184s] tol=0.3, interval=3      Rotated Ellipsoid  s=1 ok=1 f=9.99e-09 evals=  383724 r=  2 t=  26.7s FITNESS_BELOW_THRESH
+[299/500    4184s] tol=0.001, interval=auto Bent-Cigar         s=1 ok=1 f=9.50e-09 evals=   36142 r=  1 t=   3.2s FITNESS_BELOW_THRESH
+[300/500    4186s] tol=0.001, interval=auto Bent-Cigar         s=2 ok=1 f=9.42e-09 evals=   36329 r=  2 t=   3.1s FITNESS_BELOW_THRESH
+[301/500    4187s] tol=0.001, interval=auto Bent-Cigar         s=3 ok=1 f=9.78e-09 evals=   35870 r=  2 t=   3.1s FITNESS_BELOW_THRESH
+[302/500    4187s] tol=0.001, interval=auto Bent-Cigar         s=4 ok=1 f=8.79e-09 evals=   35819 r=  2 t=   3.0s FITNESS_BELOW_THRESH
+[303/500    4188s] tol=0.3, interval=3      Rotated Ellipsoid  s=2 ok=1 f=9.93e-09 evals=  404600 r=  2 t=  28.0s FITNESS_BELOW_THRESH
+[304/500    4193s] tol=0.001, interval=auto Discus             s=0 ok=1 f=9.50e-09 evals=   87635 r=  1 t=   7.6s FITNESS_BELOW_THRESH
+[305/500    4194s] tol=0.001, interval=auto Discus             s=1 ok=1 f=9.94e-09 evals=   85238 r=  2 t=   7.5s FITNESS_BELOW_THRESH
+[306/500    4195s] tol=0.001, interval=auto Discus             s=2 ok=1 f=9.80e-09 evals=   86003 r=  2 t=   7.6s FITNESS_BELOW_THRESH
+[307/500    4195s] tol=0.001, interval=auto Discus             s=3 ok=1 f=9.25e-09 evals=   85850 r=  2 t=   7.6s FITNESS_BELOW_THRESH
+[308/500    4198s] tol=0.001, interval=1    Bent-Cigar         s=0 ok=1 f=8.94e-09 evals=   35768 r=  1 t=   3.3s FITNESS_BELOW_THRESH
+[309/500    4198s] tol=0.3, interval=3      Rotated Ellipsoid  s=3 ok=1 f=9.90e-09 evals=  381905 r=  2 t=  27.2s FITNESS_BELOW_THRESH
+[310/500    4198s] tol=0.001, interval=1    Bent-Cigar         s=1 ok=1 f=9.50e-09 evals=   36142 r=  1 t=   3.5s FITNESS_BELOW_THRESH
+[311/500    4199s] tol=0.001, interval=1    Bent-Cigar         s=2 ok=1 f=9.42e-09 evals=   36329 r=  2 t=   3.5s FITNESS_BELOW_THRESH
+[312/500    4201s] tol=0.001, interval=1    Bent-Cigar         s=3 ok=1 f=9.78e-09 evals=   35870 r=  2 t=   3.4s FITNESS_BELOW_THRESH
+[313/500    4201s] tol=0.001, interval=auto Discus             s=4 ok=1 f=9.87e-09 evals=   85782 r=  1 t=   7.9s FITNESS_BELOW_THRESH
+[314/500    4202s] tol=0.001, interval=1    Bent-Cigar         s=4 ok=1 f=8.79e-09 evals=   35819 r=  2 t=   3.4s FITNESS_BELOW_THRESH
+[315/500    4202s] tol=0.3, interval=3      Rotated Ellipsoid  s=4 ok=1 f=1.00e-08 evals=  370260 r=  2 t=  26.7s FITNESS_BELOW_THRESH
+[316/500    4205s] tol=0.001, interval=2    Bent-Cigar         s=0 ok=1 f=9.91e-09 evals=   47005 r=  1 t=   3.7s FITNESS_BELOW_THRESH
+[317/500    4207s] tol=0.001, interval=1    Discus             s=0 ok=1 f=9.50e-09 evals=   87635 r=  1 t=   8.4s FITNESS_BELOW_THRESH
+[318/500    4207s] tol=0.001, interval=1    Discus             s=1 ok=1 f=9.94e-09 evals=   85238 r=  2 t=   8.0s FITNESS_BELOW_THRESH
+[319/500    4209s] tol=0.001, interval=2    Bent-Cigar         s=1 ok=1 f=9.03e-09 evals=   46767 r=  2 t=   3.7s FITNESS_BELOW_THRESH
+[320/500    4210s] tol=0.001, interval=1    Discus             s=2 ok=1 f=9.80e-09 evals=   86003 r=  2 t=   8.4s FITNESS_BELOW_THRESH
+[321/500    4210s] tol=0.001, interval=1    Discus             s=3 ok=1 f=7.96e-09 evals=   84796 r=  2 t=   8.5s FITNESS_BELOW_THRESH
+[322/500    4210s] tol=0.001, interval=1    Discus             s=4 ok=1 f=9.87e-09 evals=   85782 r=  1 t=   8.4s FITNESS_BELOW_THRESH
+[323/500    4211s] tol=0.001, interval=2    Bent-Cigar         s=3 ok=1 f=9.03e-09 evals=   46291 r=  2 t=   4.0s FITNESS_BELOW_THRESH
+[324/500    4211s] tol=0.001, interval=2    Bent-Cigar         s=2 ok=1 f=9.80e-09 evals=   47804 r=  1 t=   4.1s FITNESS_BELOW_THRESH
+[325/500    4213s] tol=0.001, interval=2    Bent-Cigar         s=4 ok=1 f=9.85e-09 evals=   47039 r=  1 t=   3.9s FITNESS_BELOW_THRESH
+[326/500    4217s] tol=0.001, interval=3    Bent-Cigar         s=0 ok=1 f=9.95e-09 evals=   57936 r=  1 t=   4.2s FITNESS_BELOW_THRESH
+[327/500    4221s] tol=0.001, interval=3    Bent-Cigar         s=1 ok=1 f=9.42e-09 evals=   58055 r=  1 t=   4.3s FITNESS_BELOW_THRESH
+[328/500    4222s] tol=0.001, interval=2    Discus             s=1 ok=1 f=9.97e-09 evals=  147917 r=  1 t=  11.8s FITNESS_BELOW_THRESH
+[329/500    4222s] tol=0.001, interval=2    Discus             s=2 ok=1 f=9.62e-09 evals=  146795 r=  1 t=  11.8s FITNESS_BELOW_THRESH
+[330/500    4222s] tol=0.001, interval=2    Discus             s=0 ok=1 f=9.62e-09 evals=  151759 r=  1 t=  12.2s FITNESS_BELOW_THRESH
+[331/500    4223s] tol=0.001, interval=2    Discus             s=3 ok=1 f=9.56e-09 evals=  148563 r=  1 t=  11.9s FITNESS_BELOW_THRESH
+[332/500    4223s] tol=0.001, interval=2    Discus             s=4 ok=1 f=1.00e-08 evals=  150059 r=  1 t=  12.0s FITNESS_BELOW_THRESH
+[333/500    4226s] tol=0.001, interval=3    Bent-Cigar         s=2 ok=1 f=9.77e-09 evals=   58922 r=  1 t=   4.5s FITNESS_BELOW_THRESH
+[334/500    4226s] tol=0.001, interval=3    Bent-Cigar         s=3 ok=1 f=9.60e-09 evals=   57953 r=  1 t=   4.3s FITNESS_BELOW_THRESH
+[335/500    4226s] tol=0.001, interval=3    Bent-Cigar         s=4 ok=1 f=9.88e-09 evals=   58514 r=  1 t=   4.5s FITNESS_BELOW_THRESH
+[336/500    4230s] tol=0.01, interval=auto  Bent-Cigar         s=0 ok=1 f=8.94e-09 evals=   35768 r=  1 t=   3.5s FITNESS_BELOW_THRESH
+[337/500    4233s] tol=0.01, interval=auto  Bent-Cigar         s=1 ok=1 f=9.53e-09 evals=   36312 r=  2 t=   3.8s FITNESS_BELOW_THRESH
+[338/500    4237s] tol=0.01, interval=auto  Bent-Cigar         s=2 ok=1 f=9.42e-09 evals=   36329 r=  2 t=   3.6s FITNESS_BELOW_THRESH
+[339/500    4237s] tol=0.001, interval=3    Discus             s=0 ok=1 f=9.46e-09 evals=  208012 r=  1 t=  15.4s FITNESS_BELOW_THRESH
+[340/500    4238s] tol=0.001, interval=3    Discus             s=1 ok=1 f=9.48e-09 evals=  204000 r=  1 t=  14.9s FITNESS_BELOW_THRESH
+[341/500    4238s] tol=0.001, interval=3    Discus             s=2 ok=1 f=9.03e-09 evals=  207060 r=  1 t=  15.0s FITNESS_BELOW_THRESH
+[342/500    4240s] tol=0.01, interval=auto  Bent-Cigar         s=3 ok=1 f=9.78e-09 evals=   35870 r=  2 t=   3.2s FITNESS_BELOW_THRESH
+[343/500    4240s] tol=0.01, interval=auto  Bent-Cigar         s=4 ok=1 f=9.95e-09 evals=   35785 r=  2 t=   3.1s FITNESS_BELOW_THRESH
+[344/500    4241s] tol=0.001, interval=3    Discus             s=3 ok=1 f=9.93e-09 evals=  205071 r=  1 t=  14.6s FITNESS_BELOW_THRESH
+[345/500    4241s] tol=0.001, interval=3    Discus             s=4 ok=1 f=9.96e-09 evals=  210460 r=  1 t=  15.0s FITNESS_BELOW_THRESH
+[346/500    4244s] tol=0.01, interval=1     Bent-Cigar         s=0 ok=1 f=8.94e-09 evals=   35768 r=  1 t=   3.1s FITNESS_BELOW_THRESH
+[347/500    4245s] tol=0.01, interval=auto  Discus             s=0 ok=1 f=9.07e-09 evals=   87737 r=  2 t=   7.5s FITNESS_BELOW_THRESH
+[348/500    4245s] tol=0.01, interval=auto  Discus             s=1 ok=1 f=9.94e-09 evals=   85238 r=  2 t=   7.4s FITNESS_BELOW_THRESH
+[349/500    4247s] tol=0.01, interval=1     Bent-Cigar         s=1 ok=1 f=9.53e-09 evals=   36312 r=  2 t=   3.4s FITNESS_BELOW_THRESH
+[350/500    4248s] tol=0.01, interval=auto  Discus             s=2 ok=1 f=9.70e-09 evals=   85476 r=  2 t=   7.5s FITNESS_BELOW_THRESH
+[351/500    4248s] tol=0.01, interval=auto  Discus             s=3 ok=1 f=9.18e-09 evals=   84949 r=  2 t=   7.6s FITNESS_BELOW_THRESH
+[352/500    4248s] tol=0.01, interval=auto  Discus             s=4 ok=1 f=9.87e-09 evals=   85782 r=  1 t=   7.5s FITNESS_BELOW_THRESH
+[353/500    4248s] tol=0.01, interval=1     Bent-Cigar         s=2 ok=1 f=9.42e-09 evals=   36329 r=  2 t=   3.3s FITNESS_BELOW_THRESH
+[354/500    4249s] tol=0.01, interval=1     Bent-Cigar         s=3 ok=1 f=9.78e-09 evals=   35870 r=  2 t=   3.4s FITNESS_BELOW_THRESH
+[355/500    4251s] tol=0.01, interval=1     Bent-Cigar         s=4 ok=1 f=9.95e-09 evals=   35785 r=  2 t=   3.8s FITNESS_BELOW_THRESH
+[356/500    4254s] tol=0.01, interval=2     Bent-Cigar         s=0 ok=1 f=9.91e-09 evals=   47005 r=  1 t=   3.2s FITNESS_BELOW_THRESH
+[357/500    4256s] tol=0.01, interval=1     Discus             s=0 ok=1 f=9.50e-09 evals=   86632 r=  2 t=   8.4s FITNESS_BELOW_THRESH
+[358/500    4256s] tol=0.01, interval=1     Discus             s=1 ok=1 f=9.94e-09 evals=   85238 r=  2 t=   8.2s FITNESS_BELOW_THRESH
+[359/500    4256s] tol=0.01, interval=1     Discus             s=2 ok=1 f=9.70e-09 evals=   85476 r=  2 t=   8.3s FITNESS_BELOW_THRESH
+[360/500    4257s] tol=0.01, interval=1     Discus             s=3 ok=1 f=9.18e-09 evals=   84949 r=  2 t=   8.2s FITNESS_BELOW_THRESH
+[361/500    4257s] tol=0.01, interval=1     Discus             s=4 ok=1 f=9.87e-09 evals=   85782 r=  1 t=   7.9s FITNESS_BELOW_THRESH
+[362/500    4258s] tol=0.01, interval=2     Bent-Cigar         s=1 ok=1 f=9.03e-09 evals=   46767 r=  2 t=   3.9s FITNESS_BELOW_THRESH
+[363/500    4260s] tol=0.01, interval=2     Bent-Cigar         s=3 ok=1 f=9.03e-09 evals=   46291 r=  2 t=   4.0s FITNESS_BELOW_THRESH
+[364/500    4260s] tol=0.01, interval=2     Bent-Cigar         s=2 ok=1 f=9.80e-09 evals=   47804 r=  1 t=   4.0s FITNESS_BELOW_THRESH
+[365/500    4260s] tol=0.01, interval=2     Bent-Cigar         s=4 ok=1 f=9.85e-09 evals=   47039 r=  1 t=   4.0s FITNESS_BELOW_THRESH
+[366/500    4264s] tol=0.01, interval=3     Bent-Cigar         s=0 ok=1 f=9.95e-09 evals=   57936 r=  1 t=   3.7s FITNESS_BELOW_THRESH
+[367/500    4267s] tol=0.01, interval=2     Discus             s=1 ok=1 f=9.97e-09 evals=  147917 r=  1 t=  10.8s FITNESS_BELOW_THRESH
+[368/500    4268s] tol=0.01, interval=2     Discus             s=0 ok=1 f=9.62e-09 evals=  151759 r=  1 t=  11.0s FITNESS_BELOW_THRESH
+[369/500    4268s] tol=0.01, interval=3     Bent-Cigar         s=1 ok=1 f=9.42e-09 evals=   58055 r=  1 t=   3.6s FITNESS_BELOW_THRESH
+[370/500    4269s] tol=0.01, interval=2     Discus             s=2 ok=1 f=9.62e-09 evals=  146795 r=  1 t=  10.3s FITNESS_BELOW_THRESH
+[371/500    4270s] tol=0.01, interval=2     Discus             s=3 ok=1 f=9.56e-09 evals=  148563 r=  1 t=  10.0s FITNESS_BELOW_THRESH
+[372/500    4270s] tol=0.01, interval=2     Discus             s=4 ok=1 f=1.00e-08 evals=  150059 r=  1 t=  10.1s FITNESS_BELOW_THRESH
+[373/500    4271s] tol=0.01, interval=3     Bent-Cigar         s=2 ok=1 f=9.77e-09 evals=   58922 r=  1 t=   3.6s FITNESS_BELOW_THRESH
+[374/500    4271s] tol=0.01, interval=3     Bent-Cigar         s=4 ok=1 f=9.88e-09 evals=   58514 r=  1 t=   3.6s FITNESS_BELOW_THRESH
+[375/500    4271s] tol=0.01, interval=3     Bent-Cigar         s=3 ok=1 f=9.60e-09 evals=   57953 r=  1 t=   3.6s FITNESS_BELOW_THRESH
+[376/500    4274s] tol=0.05, interval=auto  Bent-Cigar         s=0 ok=1 f=9.11e-09 evals=   35836 r=  2 t=   3.2s FITNESS_BELOW_THRESH
+[377/500    4278s] tol=0.05, interval=auto  Bent-Cigar         s=1 ok=1 f=8.98e-09 evals=   36516 r=  2 t=   3.1s FITNESS_BELOW_THRESH
+[378/500    4281s] tol=0.05, interval=auto  Bent-Cigar         s=2 ok=1 f=9.71e-09 evals=   36397 r=  1 t=   3.0s FITNESS_BELOW_THRESH
+[379/500    4282s] tol=0.01, interval=3     Discus             s=0 ok=1 f=9.46e-09 evals=  208012 r=  1 t=  13.3s FITNESS_BELOW_THRESH
+[380/500    4283s] tol=0.01, interval=3     Discus             s=1 ok=1 f=9.48e-09 evals=  204000 r=  1 t=  12.8s FITNESS_BELOW_THRESH
+[381/500    4284s] tol=0.05, interval=auto  Bent-Cigar         s=3 ok=1 f=9.78e-09 evals=   35870 r=  2 t=   3.0s FITNESS_BELOW_THRESH
+[382/500    4284s] tol=0.01, interval=3     Discus             s=2 ok=1 f=9.03e-09 evals=  207060 r=  1 t=  13.4s FITNESS_BELOW_THRESH
+[383/500    4284s] tol=0.01, interval=3     Discus             s=3 ok=1 f=9.93e-09 evals=  205071 r=  1 t=  12.9s FITNESS_BELOW_THRESH
+[384/500    4285s] tol=0.01, interval=3     Discus             s=4 ok=1 f=9.96e-09 evals=  210460 r=  1 t=  13.6s FITNESS_BELOW_THRESH
+[385/500    4285s] tol=0.05, interval=auto  Bent-Cigar         s=4 ok=1 f=9.95e-09 evals=   35785 r=  2 t=   3.4s FITNESS_BELOW_THRESH
+[386/500    4288s] tol=0.05, interval=1     Bent-Cigar         s=0 ok=1 f=9.11e-09 evals=   35836 r=  2 t=   3.2s FITNESS_BELOW_THRESH
+[387/500    4291s] tol=0.05, interval=auto  Discus             s=0 ok=1 f=9.89e-09 evals=   86479 r=  2 t=   7.9s FITNESS_BELOW_THRESH
+[388/500    4291s] tol=0.05, interval=auto  Discus             s=1 ok=1 f=9.84e-09 evals=   84031 r=  2 t=   7.6s FITNESS_BELOW_THRESH
+[389/500    4292s] tol=0.05, interval=auto  Discus             s=2 ok=1 f=9.56e-09 evals=   85323 r=  2 t=   7.9s FITNESS_BELOW_THRESH
+[390/500    4292s] tol=0.05, interval=1     Bent-Cigar         s=1 ok=1 f=8.98e-09 evals=   36516 r=  2 t=   3.4s FITNESS_BELOW_THRESH
+[391/500    4292s] tol=0.05, interval=auto  Discus             s=3 ok=1 f=9.34e-09 evals=   84677 r=  2 t=   7.9s FITNESS_BELOW_THRESH
+[392/500    4292s] tol=0.05, interval=auto  Discus             s=4 ok=1 f=9.87e-09 evals=   85782 r=  1 t=   7.6s FITNESS_BELOW_THRESH
+[393/500    4294s] tol=0.05, interval=1     Bent-Cigar         s=2 ok=1 f=9.71e-09 evals=   36397 r=  1 t=   3.2s FITNESS_BELOW_THRESH
+[394/500    4294s] tol=0.05, interval=1     Bent-Cigar         s=3 ok=1 f=9.78e-09 evals=   35870 r=  2 t=   3.1s FITNESS_BELOW_THRESH
+[395/500    4295s] tol=0.05, interval=1     Bent-Cigar         s=4 ok=1 f=9.95e-09 evals=   35785 r=  2 t=   3.1s FITNESS_BELOW_THRESH
+[396/500    4298s] tol=0.05, interval=2     Bent-Cigar         s=0 ok=1 f=9.91e-09 evals=   47005 r=  1 t=   3.2s FITNESS_BELOW_THRESH
+[397/500    4299s] tol=0.05, interval=1     Discus             s=1 ok=1 f=9.84e-09 evals=   84031 r=  2 t=   7.5s FITNESS_BELOW_THRESH
+[398/500    4300s] tol=0.05, interval=1     Discus             s=0 ok=1 f=9.89e-09 evals=   86479 r=  2 t=   7.7s FITNESS_BELOW_THRESH
+[399/500    4300s] tol=0.05, interval=1     Discus             s=2 ok=1 f=9.56e-09 evals=   85323 r=  2 t=   7.4s FITNESS_BELOW_THRESH
+[400/500    4301s] tol=0.05, interval=2     Bent-Cigar         s=1 ok=1 f=9.41e-09 evals=   46886 r=  1 t=   3.4s FITNESS_BELOW_THRESH
+[401/500    4301s] tol=0.05, interval=1     Discus             s=3 ok=1 f=9.75e-09 evals=   84218 r=  2 t=   7.3s FITNESS_BELOW_THRESH
+[402/500    4302s] tol=0.05, interval=1     Discus             s=4 ok=1 f=9.87e-09 evals=   85782 r=  1 t=   7.2s FITNESS_BELOW_THRESH
+[403/500    4303s] tol=0.05, interval=2     Bent-Cigar         s=2 ok=1 f=9.80e-09 evals=   47804 r=  1 t=   3.3s FITNESS_BELOW_THRESH
+[404/500    4303s] tol=0.05, interval=2     Bent-Cigar         s=3 ok=1 f=8.91e-09 evals=   46835 r=  1 t=   3.4s FITNESS_BELOW_THRESH
+[405/500    4303s] tol=0.05, interval=2     Bent-Cigar         s=4 ok=1 f=9.85e-09 evals=   47039 r=  1 t=   3.4s FITNESS_BELOW_THRESH
+[406/500    4307s] tol=0.05, interval=3     Bent-Cigar         s=0 ok=1 f=9.95e-09 evals=   57936 r=  1 t=   3.7s FITNESS_BELOW_THRESH
+[407/500    4310s] tol=0.05, interval=3     Bent-Cigar         s=1 ok=1 f=9.42e-09 evals=   58055 r=  1 t=   3.5s FITNESS_BELOW_THRESH
+[408/500    4311s] tol=0.05, interval=2     Discus             s=1 ok=1 f=9.97e-09 evals=  147917 r=  1 t=  10.1s FITNESS_BELOW_THRESH
+[409/500    4312s] tol=0.05, interval=2     Discus             s=2 ok=1 f=9.62e-09 evals=  146795 r=  1 t=  10.1s FITNESS_BELOW_THRESH
+[410/500    4312s] tol=0.05, interval=2     Discus             s=0 ok=1 f=9.62e-09 evals=  151759 r=  1 t=  10.5s FITNESS_BELOW_THRESH
+[411/500    4313s] tol=0.05, interval=2     Discus             s=3 ok=1 f=9.56e-09 evals=  148563 r=  1 t=  10.2s FITNESS_BELOW_THRESH
+[412/500    4313s] tol=0.05, interval=2     Discus             s=4 ok=1 f=1.00e-08 evals=  150059 r=  1 t=  10.3s FITNESS_BELOW_THRESH
+[413/500    4314s] tol=0.05, interval=3     Bent-Cigar         s=2 ok=1 f=9.77e-09 evals=   58922 r=  1 t=   3.6s FITNESS_BELOW_THRESH
+[414/500    4315s] tol=0.05, interval=3     Bent-Cigar         s=3 ok=1 f=9.60e-09 evals=   57953 r=  1 t=   3.5s FITNESS_BELOW_THRESH
+[415/500    4315s] tol=0.05, interval=3     Bent-Cigar         s=4 ok=1 f=9.88e-09 evals=   58514 r=  1 t=   3.6s FITNESS_BELOW_THRESH
+[416/500    4318s] tol=0.1, interval=auto   Bent-Cigar         s=0 ok=1 f=9.11e-09 evals=   35836 r=  2 t=   3.0s FITNESS_BELOW_THRESH
+[417/500    4321s] tol=0.1, interval=auto   Bent-Cigar         s=1 ok=1 f=8.98e-09 evals=   36516 r=  2 t=   3.1s FITNESS_BELOW_THRESH
+[418/500    4324s] tol=0.1, interval=auto   Bent-Cigar         s=2 ok=1 f=9.45e-09 evals=   36380 r=  1 t=   3.1s FITNESS_BELOW_THRESH
+[419/500    4324s] tol=0.05, interval=3     Discus             s=0 ok=1 f=9.46e-09 evals=  208012 r=  1 t=  12.6s FITNESS_BELOW_THRESH
+[420/500    4325s] tol=0.05, interval=3     Discus             s=1 ok=1 f=9.48e-09 evals=  204000 r=  1 t=  12.4s FITNESS_BELOW_THRESH
+[421/500    4326s] tol=0.05, interval=3     Discus             s=2 ok=1 f=9.03e-09 evals=  207060 r=  1 t=  12.9s FITNESS_BELOW_THRESH
+[422/500    4327s] tol=0.05, interval=3     Discus             s=3 ok=1 f=9.93e-09 evals=  205071 r=  1 t=  12.6s FITNESS_BELOW_THRESH
+[423/500    4327s] tol=0.1, interval=auto   Bent-Cigar         s=3 ok=1 f=9.90e-09 evals=   35819 r=  2 t=   3.0s FITNESS_BELOW_THRESH
+[424/500    4327s] tol=0.1, interval=auto   Bent-Cigar         s=4 ok=1 f=9.95e-09 evals=   35785 r=  2 t=   3.0s FITNESS_BELOW_THRESH
+[425/500    4328s] tol=0.05, interval=3     Discus             s=4 ok=1 f=9.96e-09 evals=  210460 r=  1 t=  12.8s FITNESS_BELOW_THRESH
+[426/500    4331s] tol=0.1, interval=1      Bent-Cigar         s=0 ok=1 f=9.11e-09 evals=   35836 r=  2 t=   3.1s FITNESS_BELOW_THRESH
+[427/500    4333s] tol=0.1, interval=auto   Discus             s=0 ok=1 f=9.90e-09 evals=   86836 r=  2 t=   7.5s FITNESS_BELOW_THRESH
+[428/500    4334s] tol=0.1, interval=auto   Discus             s=1 ok=1 f=9.84e-09 evals=   84031 r=  2 t=   7.5s FITNESS_BELOW_THRESH
+[429/500    4334s] tol=0.1, interval=1      Bent-Cigar         s=1 ok=1 f=8.98e-09 evals=   36516 r=  2 t=   3.3s FITNESS_BELOW_THRESH
+[430/500    4334s] tol=0.1, interval=auto   Discus             s=2 ok=1 f=8.68e-09 evals=   86853 r=  1 t=   7.6s FITNESS_BELOW_THRESH
+[431/500    4335s] tol=0.1, interval=auto   Discus             s=3 ok=1 f=9.59e-09 evals=   84133 r=  2 t=   7.6s FITNESS_BELOW_THRESH
+[432/500    4335s] tol=0.1, interval=auto   Discus             s=4 ok=1 f=9.87e-09 evals=   85782 r=  1 t=   7.6s FITNESS_BELOW_THRESH
+[433/500    4336s] tol=0.1, interval=1      Bent-Cigar         s=2 ok=1 f=9.45e-09 evals=   36380 r=  1 t=   3.1s FITNESS_BELOW_THRESH
+[434/500    4337s] tol=0.1, interval=1      Bent-Cigar         s=3 ok=1 f=9.90e-09 evals=   35819 r=  2 t=   3.1s FITNESS_BELOW_THRESH
+[435/500    4337s] tol=0.1, interval=1      Bent-Cigar         s=4 ok=1 f=9.95e-09 evals=   35785 r=  2 t=   3.1s FITNESS_BELOW_THRESH
+[436/500    4341s] tol=0.1, interval=2      Bent-Cigar         s=0 ok=1 f=9.91e-09 evals=   47005 r=  1 t=   3.2s FITNESS_BELOW_THRESH
+[437/500    4342s] tol=0.1, interval=1      Discus             s=0 ok=1 f=9.90e-09 evals=   86836 r=  2 t=   7.5s FITNESS_BELOW_THRESH
+[438/500    4342s] tol=0.1, interval=1      Discus             s=1 ok=1 f=9.84e-09 evals=   84031 r=  2 t=   7.3s FITNESS_BELOW_THRESH
+[439/500    4343s] tol=0.1, interval=1      Discus             s=2 ok=1 f=8.68e-09 evals=   86853 r=  1 t=   7.7s FITNESS_BELOW_THRESH
+[440/500    4343s] tol=0.1, interval=1      Discus             s=3 ok=1 f=9.59e-09 evals=   84133 r=  2 t=   7.5s FITNESS_BELOW_THRESH
+[441/500    4344s] tol=0.1, interval=2      Bent-Cigar         s=1 ok=1 f=9.41e-09 evals=   46886 r=  1 t=   3.3s FITNESS_BELOW_THRESH
+[442/500    4344s] tol=0.1, interval=1      Discus             s=4 ok=1 f=9.87e-09 evals=   85782 r=  1 t=   7.4s FITNESS_BELOW_THRESH
+[443/500    4345s] tol=0.1, interval=2      Bent-Cigar         s=2 ok=1 f=9.43e-09 evals=   48144 r=  1 t=   3.4s FITNESS_BELOW_THRESH
+[444/500    4346s] tol=0.1, interval=2      Bent-Cigar         s=3 ok=1 f=8.91e-09 evals=   46835 r=  1 t=   3.3s FITNESS_BELOW_THRESH
+[445/500    4346s] tol=0.1, interval=2      Bent-Cigar         s=4 ok=1 f=9.85e-09 evals=   47039 r=  1 t=   3.2s FITNESS_BELOW_THRESH
+[446/500    4350s] tol=0.1, interval=3      Bent-Cigar         s=0 ok=1 f=9.95e-09 evals=   57936 r=  1 t=   3.8s FITNESS_BELOW_THRESH
+[447/500    4354s] tol=0.1, interval=3      Bent-Cigar         s=1 ok=1 f=9.42e-09 evals=   58055 r=  1 t=   3.8s FITNESS_BELOW_THRESH
+[448/500    4354s] tol=0.1, interval=2      Discus             s=0 ok=1 f=9.62e-09 evals=  151759 r=  1 t=  10.7s FITNESS_BELOW_THRESH
+[449/500    4354s] tol=0.1, interval=2      Discus             s=1 ok=1 f=9.97e-09 evals=  147917 r=  1 t=  10.3s FITNESS_BELOW_THRESH
+[450/500    4354s] tol=0.1, interval=2      Discus             s=2 ok=1 f=9.62e-09 evals=  146795 r=  1 t=  10.2s FITNESS_BELOW_THRESH
+[451/500    4356s] tol=0.1, interval=2      Discus             s=3 ok=1 f=9.96e-09 evals=  147781 r=  1 t=  10.5s FITNESS_BELOW_THRESH
+[452/500    4356s] tol=0.1, interval=2      Discus             s=4 ok=1 f=1.00e-08 evals=  150059 r=  1 t=  10.4s FITNESS_BELOW_THRESH
+[453/500    4357s] tol=0.1, interval=3      Bent-Cigar         s=2 ok=1 f=9.77e-09 evals=   58922 r=  1 t=   3.8s FITNESS_BELOW_THRESH
+[454/500    4358s] tol=0.1, interval=3      Bent-Cigar         s=3 ok=1 f=9.60e-09 evals=   57953 r=  1 t=   3.7s FITNESS_BELOW_THRESH
+[455/500    4358s] tol=0.1, interval=3      Bent-Cigar         s=4 ok=1 f=9.88e-09 evals=   58514 r=  1 t=   3.8s FITNESS_BELOW_THRESH
+[456/500    4361s] tol=0.3, interval=auto   Bent-Cigar         s=0 ok=1 f=9.28e-09 evals=   35836 r=  1 t=   3.1s FITNESS_BELOW_THRESH
+[457/500    4364s] tol=0.3, interval=auto   Bent-Cigar         s=1 ok=1 f=9.95e-09 evals=   36397 r=  2 t=   3.2s FITNESS_BELOW_THRESH
+[458/500    4368s] tol=0.3, interval=auto   Bent-Cigar         s=2 ok=1 f=9.56e-09 evals=   36754 r=  2 t=   3.7s FITNESS_BELOW_THRESH
+[459/500    4368s] tol=0.1, interval=3      Discus             s=0 ok=1 f=9.46e-09 evals=  208012 r=  1 t=  13.8s FITNESS_BELOW_THRESH
+[460/500    4370s] tol=0.1, interval=3      Discus             s=1 ok=1 f=9.48e-09 evals=  204000 r=  1 t=  13.8s FITNESS_BELOW_THRESH
+[461/500    4370s] tol=0.1, interval=3      Discus             s=2 ok=1 f=9.03e-09 evals=  207060 r=  1 t=  14.3s FITNESS_BELOW_THRESH
+[462/500    4372s] tol=0.1, interval=3      Discus             s=3 ok=1 f=9.93e-09 evals=  205071 r=  1 t=  14.3s FITNESS_BELOW_THRESH
+[463/500    4372s] tol=0.3, interval=auto   Bent-Cigar         s=3 ok=1 f=9.99e-09 evals=   35921 r=  1 t=   3.8s FITNESS_BELOW_THRESH
+[464/500    4372s] tol=0.3, interval=auto   Bent-Cigar         s=4 ok=1 f=9.88e-09 evals=   36669 r=  1 t=   3.9s FITNESS_BELOW_THRESH
+[465/500    4373s] tol=0.1, interval=3      Discus             s=4 ok=1 f=9.96e-09 evals=  210460 r=  1 t=  14.7s FITNESS_BELOW_THRESH
+[466/500    4376s] tol=0.3, interval=1      Bent-Cigar         s=0 ok=1 f=9.28e-09 evals=   35836 r=  1 t=   3.5s FITNESS_BELOW_THRESH
+[467/500    4378s] tol=0.3, interval=auto   Discus             s=0 ok=1 f=9.89e-09 evals=   86853 r=  2 t=   8.6s FITNESS_BELOW_THRESH
+[468/500    4379s] tol=0.3, interval=auto   Discus             s=1 ok=1 f=9.49e-09 evals=   85595 r=  1 t=   8.5s FITNESS_BELOW_THRESH
+[469/500    4380s] tol=0.3, interval=1      Bent-Cigar         s=1 ok=1 f=9.95e-09 evals=   36397 r=  2 t=   3.7s FITNESS_BELOW_THRESH
+[470/500    4380s] tol=0.3, interval=auto   Discus             s=3 ok=1 f=9.48e-09 evals=   85408 r=  2 t=   8.5s FITNESS_BELOW_THRESH
+[471/500    4380s] tol=0.3, interval=auto   Discus             s=4 ok=1 f=9.66e-09 evals=   86173 r=  1 t=   8.4s FITNESS_BELOW_THRESH
+[472/500    4380s] tol=0.3, interval=auto   Discus             s=2 ok=1 f=9.66e-09 evals=   86003 r=  2 t=   8.6s FITNESS_BELOW_THRESH
+[473/500    4382s] tol=0.3, interval=1      Bent-Cigar         s=2 ok=1 f=9.56e-09 evals=   36754 r=  2 t=   3.7s FITNESS_BELOW_THRESH
+[474/500    4382s] tol=0.3, interval=1      Bent-Cigar         s=3 ok=1 f=9.99e-09 evals=   35921 r=  1 t=   3.5s FITNESS_BELOW_THRESH
+[475/500    4383s] tol=0.3, interval=1      Bent-Cigar         s=4 ok=1 f=9.88e-09 evals=   36669 r=  1 t=   3.6s FITNESS_BELOW_THRESH
+[476/500    4387s] tol=0.3, interval=2      Bent-Cigar         s=0 ok=1 f=9.80e-09 evals=   46869 r=  1 t=   3.9s FITNESS_BELOW_THRESH
+[477/500    4389s] tol=0.3, interval=1      Discus             s=1 ok=1 f=9.49e-09 evals=   85595 r=  1 t=   8.5s FITNESS_BELOW_THRESH
+[478/500    4389s] tol=0.3, interval=1      Discus             s=2 ok=1 f=9.66e-09 evals=   86003 r=  2 t=   8.7s FITNESS_BELOW_THRESH
+[479/500    4389s] tol=0.3, interval=1      Discus             s=0 ok=1 f=9.89e-09 evals=   86853 r=  2 t=   8.8s FITNESS_BELOW_THRESH
+[480/500    4391s] tol=0.3, interval=1      Discus             s=3 ok=1 f=9.48e-09 evals=   85408 r=  2 t=   8.6s FITNESS_BELOW_THRESH
+[481/500    4391s] tol=0.3, interval=1      Discus             s=4 ok=1 f=9.66e-09 evals=   86173 r=  1 t=   8.5s FITNESS_BELOW_THRESH
+[482/500    4391s] tol=0.3, interval=2      Bent-Cigar         s=1 ok=1 f=9.96e-09 evals=   47209 r=  1 t=   3.7s FITNESS_BELOW_THRESH
+[483/500    4393s] tol=0.3, interval=2      Bent-Cigar         s=2 ok=1 f=9.92e-09 evals=   47583 r=  1 t=   3.7s FITNESS_BELOW_THRESH
+[484/500    4393s] tol=0.3, interval=2      Bent-Cigar         s=3 ok=1 f=8.53e-09 evals=   46393 r=  1 t=   3.6s FITNESS_BELOW_THRESH
+[485/500    4393s] tol=0.3, interval=2      Bent-Cigar         s=4 ok=1 f=9.02e-09 evals=   47022 r=  1 t=   3.6s FITNESS_BELOW_THRESH
+[486/500    4397s] tol=0.3, interval=3      Bent-Cigar         s=0 ok=1 f=9.71e-09 evals=   57596 r=  1 t=   4.0s FITNESS_BELOW_THRESH
+[487/500    4401s] tol=0.3, interval=3      Bent-Cigar         s=1 ok=1 f=8.56e-09 evals=   58480 r=  1 t=   4.3s FITNESS_BELOW_THRESH
+[488/500    4402s] tol=0.3, interval=2      Discus             s=0 ok=1 f=9.62e-09 evals=  151759 r=  1 t=  11.7s FITNESS_BELOW_THRESH
+[489/500    4402s] tol=0.3, interval=2      Discus             s=1 ok=1 f=9.97e-09 evals=  147917 r=  1 t=  11.5s FITNESS_BELOW_THRESH
+[490/500    4402s] tol=0.3, interval=2      Discus             s=2 ok=1 f=9.78e-09 evals=  148087 r=  1 t=  11.5s FITNESS_BELOW_THRESH
+[491/500    4404s] tol=0.3, interval=2      Discus             s=3 ok=1 f=9.87e-09 evals=  148461 r=  1 t=  11.6s FITNESS_BELOW_THRESH
+[492/500    4404s] tol=0.3, interval=2      Discus             s=4 ok=1 f=1.00e-08 evals=  150059 r=  1 t=  11.8s FITNESS_BELOW_THRESH
+[493/500    4405s] tol=0.3, interval=3      Bent-Cigar         s=2 ok=1 f=9.55e-09 evals=   59330 r=  1 t=   4.3s FITNESS_BELOW_THRESH
+[494/500    4407s] tol=0.3, interval=3      Bent-Cigar         s=3 ok=1 f=9.49e-09 evals=   57664 r=  1 t=   4.4s FITNESS_BELOW_THRESH
+[495/500    4407s] tol=0.3, interval=3      Bent-Cigar         s=4 ok=1 f=9.88e-09 evals=   58514 r=  1 t=   4.4s FITNESS_BELOW_THRESH
+[496/500    4417s] tol=0.3, interval=3      Discus             s=0 ok=1 f=9.46e-09 evals=  208012 r=  1 t=  14.3s FITNESS_BELOW_THRESH
+[497/500    4418s] tol=0.3, interval=3      Discus             s=1 ok=1 f=9.48e-09 evals=  204000 r=  1 t=  13.4s FITNESS_BELOW_THRESH
+[498/500    4418s] tol=0.3, interval=3      Discus             s=2 ok=1 f=9.03e-09 evals=  207060 r=  1 t=  13.5s FITNESS_BELOW_THRESH
+[499/500    4419s] tol=0.3, interval=3      Discus             s=3 ok=1 f=9.93e-09 evals=  205071 r=  1 t=  13.3s FITNESS_BELOW_THRESH
+[500/500    4419s] tol=0.3, interval=3      Discus             s=4 ok=1 f=9.96e-09 evals=  210460 r=  1 t=  12.8s FITNESS_BELOW_THRESH
+done in 4431s

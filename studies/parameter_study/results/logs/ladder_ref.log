@@ -1,0 +1,62 @@
+ladder_ref: 60 tasks to run (0 already done), 6 workers
+[1/60     285s] CMA-ES korr., interval=1 Ellipsoid          s=1 ok=1 f=1.00e-08 evals=  298673 r=100 t= 114.2s FITNESS_BELOW_THRESH
+[2/60     285s] CMA-ES korr., interval=1 Ellipsoid          s=2 ok=1 f=9.93e-09 evals=  301410 r=100 t= 114.5s FITNESS_BELOW_THRESH
+[3/60     285s] CMA-ES korr., interval=1 Ellipsoid          s=0 ok=1 f=9.88e-09 evals=  305558 r=100 t= 115.4s FITNESS_BELOW_THRESH
+[4/60     286s] CMA-ES korr., interval=1 Ellipsoid          s=3 ok=1 f=9.77e-09 evals=  300271 r=100 t= 115.1s FITNESS_BELOW_THRESH
+[5/60     288s] CMA-ES korr., interval=1 Ellipsoid          s=4 ok=1 f=9.76e-09 evals=  298945 r=100 t= 114.9s FITNESS_BELOW_THRESH
+[6/60     307s] CMA-ES korr.   Ellipsoid          s=0 ok=0 f=1.37e-07 evals= 1000008 r=100 t= 134.0s MAX_ITER_REACHED
+[7/60     416s] CMA-ES korr.   Ellipsoid          s=2 ok=1 f=9.99e-09 evals=  990811 r=100 t= 130.3s FITNESS_BELOW_THRESH
+[8/60     418s] CMA-ES korr.   Ellipsoid          s=1 ok=1 f=9.96e-09 evals=  997101 r=100 t= 133.2s FITNESS_BELOW_THRESH
+[9/60     418s] CMA-ES korr.   Ellipsoid          s=3 ok=0 f=9.49e-08 evals= 1000008 r=100 t= 132.9s MAX_ITER_REACHED
+[10/60     421s] CMA-ES korr.   Ellipsoid          s=4 ok=0 f=1.60e-08 evals= 1000008 r=100 t= 134.9s MAX_ITER_REACHED
+[11/60     444s] CMA-ES korr., interval=1 Rosenbrock         s=0 ok=1 f=9.64e-09 evals=  397103 r=100 t= 155.9s FITNESS_BELOW_THRESH
+[12/60     457s] CMA-ES korr., interval=1 Rosenbrock         s=1 ok=1 f=9.61e-09 evals=  388042 r=100 t= 149.9s FITNESS_BELOW_THRESH
+[13/60     514s] CMA-ES korr.   Rosenbrock         s=0 ok=1 f=9.40e-09 evals=  686545 r=100 t=  92.9s FITNESS_BELOW_THRESH
+[14/60     514s] CMA-ES korr., interval=1 Rosenbrock         s=3 ok=1 f=9.76e-09 evals=  277117 r=100 t=  96.1s FITNESS_BELOW_THRESH
+[15/60     534s] CMA-ES korr.   Rosenbrock         s=1 ok=1 f=9.66e-09 evals=  683638 r=100 t=  90.4s FITNESS_BELOW_THRESH
+[16/60     550s] CMA-ES korr.   Rosenbrock         s=2 ok=1 f=9.53e-09 evals=  671432 r=100 t=  92.3s FITNESS_BELOW_THRESH
+[17/60     556s] CMA-ES korr., interval=1 Rotated Ellipsoid  s=0 ok=1 f=9.72e-09 evals=   65127 r=100 t=  22.4s FITNESS_BELOW_THRESH
+[18/60     565s] CMA-ES korr., interval=1 Rosenbrock         s=4 ok=1 f=9.16e-09 evals=  420240 r=100 t= 146.2s FITNESS_BELOW_THRESH
+[19/60     571s] CMA-ES korr., interval=1 Rotated Ellipsoid  s=1 ok=1 f=9.90e-09 evals=   66589 r=100 t=  21.1s FITNESS_BELOW_THRESH
+[20/60     577s] CMA-ES korr., interval=1 Rotated Ellipsoid  s=2 ok=1 f=9.14e-09 evals=   66470 r=100 t=  21.0s FITNESS_BELOW_THRESH
+[21/60     586s] CMA-ES korr., interval=1 Rotated Ellipsoid  s=3 ok=1 f=1.00e-08 evals=   65637 r=100 t=  21.0s FITNESS_BELOW_THRESH
+[22/60     591s] CMA-ES korr., interval=1 Rotated Ellipsoid  s=4 ok=1 f=9.89e-09 evals=   65824 r=100 t=  20.8s FITNESS_BELOW_THRESH
+[23/60     597s] CMA-ES korr.   Rotated Ellipsoid  s=0 ok=1 f=9.85e-09 evals=  165325 r=100 t=  19.6s FITNESS_BELOW_THRESH
+[24/60     602s] CMA-ES korr.   Rosenbrock         s=3 ok=1 f=9.94e-09 evals=  655333 r=100 t=  88.1s FITNESS_BELOW_THRESH
+[25/60     603s] CMA-ES korr.   Rosenbrock         s=4 ok=1 f=9.25e-09 evals=  667029 r=100 t=  89.1s FITNESS_BELOW_THRESH
+[26/60     605s] CMA-ES korr.   Rotated Ellipsoid  s=1 ok=1 f=9.95e-09 evals=  164662 r=100 t=  19.8s FITNESS_BELOW_THRESH
+[27/60     607s] CMA-ES korr., interval=1 Sphere             s=0 ok=1 f=9.66e-09 evals=   11730 r=100 t=   3.9s FITNESS_BELOW_THRESH
+[28/60     607s] CMA-ES korr., interval=1 Rosenbrock         s=2 ok=0 f=3.99e+00 evals=  553231 r=100 t= 192.0s MAX_COND_NUM_EXCEEDED
+[29/60     609s] CMA-ES korr., interval=1 Sphere             s=1 ok=1 f=8.39e-09 evals=   12087 r=100 t=   4.0s FITNESS_BELOW_THRESH
+[30/60     611s] CMA-ES korr., interval=1 Sphere             s=2 ok=1 f=9.28e-09 evals=   11713 r=100 t=   3.9s FITNESS_BELOW_THRESH
+[31/60     612s] CMA-ES korr., interval=1 Sphere             s=3 ok=1 f=9.77e-09 evals=   11917 r=100 t=   4.0s FITNESS_BELOW_THRESH
+[32/60     612s] CMA-ES korr.   Rotated Ellipsoid  s=2 ok=1 f=9.76e-09 evals=  162129 r=100 t=  20.5s FITNESS_BELOW_THRESH
+[33/60     613s] CMA-ES korr., interval=1 Sphere             s=4 ok=1 f=8.50e-09 evals=   11849 r=100 t=   3.8s FITNESS_BELOW_THRESH
+[34/60     618s] CMA-ES korr.   Rotated Ellipsoid  s=3 ok=1 f=9.98e-09 evals=  158644 r=100 t=  21.1s FITNESS_BELOW_THRESH
+[35/60     626s] CMA-ES korr., interval=1 Bent-Cigar         s=2 ok=1 f=9.06e-09 evals=   36414 r=100 t=  13.5s FITNESS_BELOW_THRESH
+[36/60     626s] CMA-ES korr.   Rotated Ellipsoid  s=4 ok=1 f=9.61e-09 evals=  160055 r=100 t=  24.3s FITNESS_BELOW_THRESH
+[37/60     626s] CMA-ES korr., interval=1 Bent-Cigar         s=0 ok=1 f=9.42e-09 evals=   36414 r=100 t=  15.5s FITNESS_BELOW_THRESH
+[38/60     627s] CMA-ES korr., interval=1 Bent-Cigar         s=3 ok=1 f=9.14e-09 evals=   36652 r=100 t=  13.8s FITNESS_BELOW_THRESH
+[39/60     628s] CMA-ES korr., interval=1 Bent-Cigar         s=1 ok=1 f=9.89e-09 evals=   36550 r=100 t=  16.0s FITNESS_BELOW_THRESH
+[40/60     633s] CMA-ES korr., interval=1 Bent-Cigar         s=4 ok=1 f=9.22e-09 evals=   36108 r=100 t=  14.7s FITNESS_BELOW_THRESH
+[41/60     634s] CMA-ES korr.   Sphere             s=0 ok=1 f=9.37e-09 evals=   11628 r=100 t=   1.4s FITNESS_BELOW_THRESH
+[42/60     636s] CMA-ES korr.   Sphere             s=1 ok=1 f=9.40e-09 evals=   12036 r=100 t=   1.4s FITNESS_BELOW_THRESH
+[43/60     637s] CMA-ES korr.   Sphere             s=2 ok=1 f=9.60e-09 evals=   12036 r=100 t=   1.4s FITNESS_BELOW_THRESH
+[44/60     638s] CMA-ES korr.   Sphere             s=3 ok=1 f=9.34e-09 evals=   11781 r=100 t=   1.3s FITNESS_BELOW_THRESH
+[45/60     640s] CMA-ES korr.   Sphere             s=4 ok=1 f=9.88e-09 evals=   12070 r=100 t=   1.4s FITNESS_BELOW_THRESH
+[46/60     650s] CMA-ES korr.   Bent-Cigar         s=0 ok=1 f=9.70e-09 evals=   91205 r=100 t=  10.6s FITNESS_BELOW_THRESH
+[47/60     655s] CMA-ES korr., interval=1 Discus             s=0 ok=1 f=9.62e-09 evals=   89199 r=100 t=  29.6s FITNESS_BELOW_THRESH
+[48/60     656s] CMA-ES korr., interval=1 Discus             s=2 ok=1 f=9.97e-09 evals=   88553 r=100 t=  30.0s FITNESS_BELOW_THRESH
+[49/60     657s] CMA-ES korr., interval=1 Discus             s=1 ok=1 f=9.56e-09 evals=   88536 r=100 t=  30.3s FITNESS_BELOW_THRESH
+[50/60     657s] CMA-ES korr., interval=1 Discus             s=3 ok=1 f=9.65e-09 evals=   87754 r=100 t=  30.1s FITNESS_BELOW_THRESH
+[51/60     658s] CMA-ES korr., interval=1 Discus             s=4 ok=1 f=9.80e-09 evals=   87346 r=100 t=  30.4s FITNESS_BELOW_THRESH
+[52/60     662s] CMA-ES korr.   Bent-Cigar         s=1 ok=1 f=9.98e-09 evals=   90933 r=100 t=  11.0s FITNESS_BELOW_THRESH
+[53/60     666s] CMA-ES korr.   Bent-Cigar         s=2 ok=1 f=9.80e-09 evals=   91103 r=100 t=  10.9s FITNESS_BELOW_THRESH
+[54/60     667s] CMA-ES korr.   Bent-Cigar         s=3 ok=1 f=9.30e-09 evals=   91290 r=100 t=  10.7s FITNESS_BELOW_THRESH
+[55/60     667s] CMA-ES korr.   Bent-Cigar         s=4 ok=1 f=9.96e-09 evals=   90457 r=100 t=  10.6s FITNESS_BELOW_THRESH
+[56/60     697s] CMA-ES korr.   Discus             s=0 ok=1 f=9.70e-09 evals=  360876 r=100 t=  39.7s FITNESS_BELOW_THRESH
+[57/60     699s] CMA-ES korr.   Discus             s=1 ok=1 f=9.74e-09 evals=  374425 r=100 t=  41.3s FITNESS_BELOW_THRESH
+[58/60     701s] CMA-ES korr.   Discus             s=2 ok=1 f=9.97e-09 evals=  365806 r=100 t=  39.6s FITNESS_BELOW_THRESH
+[59/60     704s] CMA-ES korr.   Discus             s=3 ok=1 f=9.98e-09 evals=  359754 r=100 t=  38.4s FITNESS_BELOW_THRESH
+[60/60     705s] CMA-ES korr.   Discus             s=4 ok=1 f=9.69e-09 evals=  359244 r=100 t=  38.2s FITNESS_BELOW_THRESH
+done in 710s

@@ -1,0 +1,181 @@
+      label          function  successes  runs      ERT  ERT_rel  evals_median_success  evals_rel  wall_median_success  wall_rel  mean_rank                                   stops
+    default         Ellipsoid          5     5  6.9e+05        1              6.86e+05          1                  124         1       58.9                    FITNESS_BELOW_THRESH
+ tol=0.0001         Ellipsoid          5     5  7.6e+05      1.1               7.6e+05       1.11                  146      1.18       78.6                    FITNESS_BELOW_THRESH
+  tol=0.001         Ellipsoid          5     5 7.61e+05      1.1               7.6e+05       1.11                  146      1.18       74.4                    FITNESS_BELOW_THRESH
+   tol=0.05         Ellipsoid          5     5 5.77e+05    0.837              5.86e+05      0.853                 87.1     0.703       31.9                    FITNESS_BELOW_THRESH
+    tol=0.1         Ellipsoid          5     5 4.83e+05    0.699              4.84e+05      0.706                 49.1     0.396       17.7                    FITNESS_BELOW_THRESH
+    tol=0.3         Ellipsoid          5     5 2.11e+05    0.306              2.11e+05      0.308                 16.7     0.135       2.09                    FITNESS_BELOW_THRESH
+     rmax=5         Ellipsoid          5     5 3.73e+05    0.541              3.73e+05      0.544                 25.8     0.208        4.8                    FITNESS_BELOW_THRESH
+    rmax=10         Ellipsoid          5     5 4.16e+05    0.602              4.15e+05      0.605                 33.4      0.27       9.34                    FITNESS_BELOW_THRESH
+    rmax=25         Ellipsoid          5     5 5.81e+05    0.842              5.78e+05      0.843                 72.4     0.585         23                    FITNESS_BELOW_THRESH
+  fixed r=1         Ellipsoid          5     5 2.09e+05    0.302               2.1e+05      0.307                   16     0.129          1                    FITNESS_BELOW_THRESH
+    rmax=50         Ellipsoid          5     5 6.49e+05     0.94               6.5e+05      0.947                  126      1.02       44.6                    FITNESS_BELOW_THRESH
+  fixed r=2         Ellipsoid          5     5 2.09e+05    0.303              2.09e+05      0.304                 17.9     0.144          2                    FITNESS_BELOW_THRESH
+  fixed r=5         Ellipsoid          5     5  3.9e+05    0.566              3.91e+05       0.57                   28     0.226          5                    FITNESS_BELOW_THRESH
+ fixed r=10         Ellipsoid          5     5 4.31e+05    0.625              4.33e+05      0.631                 32.7     0.264         10                    FITNESS_BELOW_THRESH
+ fixed r=25         Ellipsoid          5     5 6.38e+05    0.924              6.37e+05      0.929                 59.9     0.484         25                    FITNESS_BELOW_THRESH
+ fixed r=50         Ellipsoid          5     5 7.46e+05     1.08              7.49e+05       1.09                  103     0.832         50                    FITNESS_BELOW_THRESH
+       r0=5         Ellipsoid          5     5 7.07e+05     1.02              7.05e+05       1.03                  130      1.05       60.3                    FITNESS_BELOW_THRESH
+      r0=20         Ellipsoid          5     5 6.94e+05     1.01              6.96e+05       1.01                  133      1.08       59.3                    FITNESS_BELOW_THRESH
+      r0=50         Ellipsoid          5     5 7.16e+05     1.04              7.15e+05       1.04                  131      1.05         60                    FITNESS_BELOW_THRESH
+ interval=1         Ellipsoid          5     5 2.85e+05    0.412              2.85e+05      0.415                  161       1.3       66.1                    FITNESS_BELOW_THRESH
+ interval=2         Ellipsoid          5     5 4.46e+05    0.647              4.46e+05      0.649                  140      1.13       60.2                    FITNESS_BELOW_THRESH
+ interval=5         Ellipsoid          5     5 8.61e+05     1.25              8.61e+05       1.25                  133      1.07       52.6                    FITNESS_BELOW_THRESH
+interval=10         Ellipsoid          0     5      inf      inf                   NaN        NaN                  NaN       NaN       37.7                        MAX_ITER_REACHED
+interval=20         Ellipsoid          0     5      inf      inf                   NaN        NaN                  NaN       NaN       17.3                        MAX_ITER_REACHED
+     pop=34         Ellipsoid          5     5 7.59e+05      1.1              7.51e+05       1.09                 69.9     0.564       60.7                    FITNESS_BELOW_THRESH
+     pop=68         Ellipsoid          5     5  8.4e+05     1.22              8.36e+05       1.22                 47.8     0.386       62.6                    FITNESS_BELOW_THRESH
+    pop=136         Ellipsoid          5     5 8.99e+05      1.3              9.01e+05       1.31                 32.2      0.26       63.2                    FITNESS_BELOW_THRESH
+sigma0 x0.1         Ellipsoid          5     5  6.8e+05    0.985              6.77e+05      0.986                  120      0.97       58.5                    FITNESS_BELOW_THRESH
+ sigma0 x10         Ellipsoid          5     5 7.49e+05     1.08              7.45e+05       1.09                  131      1.06       61.1                    FITNESS_BELOW_THRESH
+    default        Rosenbrock          3     5 1.17e+06        1              5.66e+05          1                   61         1       22.9   FITNESS_BELOW_THRESH,MAX_ITER_REACHED
+ tol=0.0001        Rosenbrock          3     5 1.18e+06     1.01              5.75e+05       1.02                 96.7      1.59       44.6   FITNESS_BELOW_THRESH,MAX_ITER_REACHED
+  tol=0.001        Rosenbrock          3     5 1.18e+06        1              5.64e+05      0.997                 91.7       1.5       38.1   FITNESS_BELOW_THRESH,MAX_ITER_REACHED
+   tol=0.05        Rosenbrock          3     5 1.27e+06     1.08              6.72e+05       1.19                 56.7     0.931       5.06   FITNESS_BELOW_THRESH,MAX_ITER_REACHED
+    tol=0.1        Rosenbrock          3     5  1.3e+06     1.11              7.08e+05       1.25                 55.2     0.905       3.74   FITNESS_BELOW_THRESH,MAX_ITER_REACHED
+    tol=0.3        Rosenbrock          3     5 9.97e+05     0.85              5.75e+05       1.02                 51.5     0.844       1.99 FITNESS_BELOW_THRESH,SIGMA_BELOW_THRESH
+     rmax=5        Rosenbrock          3     5 1.28e+06     1.09              6.79e+05        1.2                 55.2     0.906       4.91   FITNESS_BELOW_THRESH,MAX_ITER_REACHED
+    rmax=10        Rosenbrock          3     5  1.2e+06     1.03              5.94e+05       1.05                   54     0.886       9.41   FITNESS_BELOW_THRESH,MAX_ITER_REACHED
+    rmax=25        Rosenbrock          3     5 1.18e+06     1.01              5.75e+05       1.02                 65.4      1.07       17.8   FITNESS_BELOW_THRESH,MAX_ITER_REACHED
+    rmax=50        Rosenbrock          3     5 1.17e+06        1              5.66e+05          1                 63.9      1.05       21.1   FITNESS_BELOW_THRESH,MAX_ITER_REACHED
+  fixed r=1        Rosenbrock          3     5 1.07e+06    0.911               6.5e+05       1.15                 54.8     0.899          1 FITNESS_BELOW_THRESH,SIGMA_BELOW_THRESH
+  fixed r=2        Rosenbrock          5     5 5.76e+05    0.491              5.81e+05       1.03                 49.8     0.817          2                    FITNESS_BELOW_THRESH
+  fixed r=5        Rosenbrock          3     5 1.34e+06     1.14              6.77e+05        1.2                 51.1     0.838          5   FITNESS_BELOW_THRESH,MAX_ITER_REACHED
+ fixed r=10        Rosenbrock          5     5  5.9e+05    0.503              5.89e+05       1.04                 48.3     0.792         10                    FITNESS_BELOW_THRESH
+ fixed r=25        Rosenbrock          5     5 5.42e+05    0.462              5.75e+05       1.02                 59.5     0.975         25                    FITNESS_BELOW_THRESH
+ fixed r=50        Rosenbrock          4     5 8.48e+05    0.723              5.98e+05       1.06                 85.7      1.41         50   FITNESS_BELOW_THRESH,MAX_ITER_REACHED
+       r0=5        Rosenbrock          4     5 8.22e+05    0.701              5.73e+05       1.01                 63.7      1.05         20   FITNESS_BELOW_THRESH,MAX_ITER_REACHED
+      r0=20        Rosenbrock          5     5 5.29e+05    0.451              5.63e+05      0.995                 69.2      1.14       17.3                    FITNESS_BELOW_THRESH
+      r0=50        Rosenbrock          4     5 8.27e+05    0.705              5.71e+05       1.01                 67.8      1.11       19.9   FITNESS_BELOW_THRESH,MAX_ITER_REACHED
+ interval=1        Rosenbrock          3     5 8.16e+05    0.695              3.99e+05      0.705                  119      1.95       33.2 FITNESS_BELOW_THRESH,SIGMA_BELOW_THRESH
+ interval=2        Rosenbrock          3     5 1.18e+06        1               5.1e+05      0.902                 66.9       1.1       28.9   FITNESS_BELOW_THRESH,MAX_ITER_REACHED
+ interval=5        Rosenbrock          3     5 1.33e+06     1.13              7.54e+05       1.33                 60.7     0.996       17.5   FITNESS_BELOW_THRESH,MAX_ITER_REACHED
+interval=10        Rosenbrock          0     5      inf      inf                   NaN        NaN                  NaN       NaN       11.8                        MAX_ITER_REACHED
+interval=20        Rosenbrock          0     5      inf      inf                   NaN        NaN                  NaN       NaN       4.25                        MAX_ITER_REACHED
+     pop=34        Rosenbrock          5     5 6.52e+05    0.556              6.94e+05       1.23                 47.5     0.778       17.2                    FITNESS_BELOW_THRESH
+     pop=68        Rosenbrock          5     5 9.27e+05     0.79              9.24e+05       1.63                   44     0.722       15.7                    FITNESS_BELOW_THRESH
+    pop=136        Rosenbrock          1     5 4.99e+06     4.25              9.86e+05       1.74                   38     0.624         14   FITNESS_BELOW_THRESH,MAX_ITER_REACHED
+sigma0 x0.1        Rosenbrock          3     5 1.23e+06     1.05              5.67e+05          1                 60.7     0.995       21.3   FITNESS_BELOW_THRESH,MAX_ITER_REACHED
+ sigma0 x10        Rosenbrock          3     5 1.25e+06     1.06              5.73e+05       1.01                   64      1.05       22.6   FITNESS_BELOW_THRESH,MAX_ITER_REACHED
+    default         Rastrigin          0     5      inf      NaN                   NaN        NaN                  NaN       NaN       9.39                        MAX_ITER_REACHED
+     pop=34         Rastrigin          0     5      inf      NaN                   NaN        NaN                  NaN       NaN       6.05                        MAX_ITER_REACHED
+     pop=68         Rastrigin          0     5      inf      NaN                   NaN        NaN                  NaN       NaN       3.25                      SIGMA_BELOW_THRESH
+    pop=136         Rastrigin          0     5      inf      NaN                   NaN        NaN                  NaN       NaN       1.95                      SIGMA_BELOW_THRESH
+    pop=272         Rastrigin          0     5      inf      NaN                   NaN        NaN                  NaN       NaN       3.59                        MAX_ITER_REACHED
+    pop=544         Rastrigin          0     5      inf      NaN                   NaN        NaN                  NaN       NaN       3.67                        MAX_ITER_REACHED
+    default Rotated Ellipsoid          5     5 3.21e+05        1              3.18e+05          1                 26.9         1        8.8                    FITNESS_BELOW_THRESH
+ tol=0.0001 Rotated Ellipsoid          5     5 3.16e+05    0.987              3.13e+05      0.984                 30.2      1.12       12.7                    FITNESS_BELOW_THRESH
+  tol=0.001 Rotated Ellipsoid          5     5 3.18e+05    0.993              3.19e+05          1                 29.5       1.1       12.3                    FITNESS_BELOW_THRESH
+   tol=0.05 Rotated Ellipsoid          5     5 3.44e+05     1.07              3.46e+05       1.09                 25.7     0.956       4.43                    FITNESS_BELOW_THRESH
+    tol=0.1 Rotated Ellipsoid          5     5 3.88e+05     1.21              4.04e+05       1.27                   29      1.08       2.89                    FITNESS_BELOW_THRESH
+    tol=0.3 Rotated Ellipsoid          5     5 4.05e+05     1.26              3.96e+05       1.25                 31.7      1.18       1.96                    FITNESS_BELOW_THRESH
+     rmax=5 Rotated Ellipsoid          5     5 3.73e+05     1.16              3.75e+05       1.18                 27.2      1.01       4.32                    FITNESS_BELOW_THRESH
+    rmax=10 Rotated Ellipsoid          5     5 3.25e+05     1.01              3.24e+05       1.02                   25      0.93       6.98                    FITNESS_BELOW_THRESH
+    rmax=25 Rotated Ellipsoid          5     5 3.21e+05        1              3.18e+05          1                   26     0.964        8.8                    FITNESS_BELOW_THRESH
+    rmax=50 Rotated Ellipsoid          5     5 3.21e+05        1              3.18e+05          1                 26.3     0.977        8.8                    FITNESS_BELOW_THRESH
+  fixed r=1 Rotated Ellipsoid          5     5 4.64e+05     1.45              4.59e+05       1.44                 34.2      1.27          1                    FITNESS_BELOW_THRESH
+  fixed r=2 Rotated Ellipsoid          5     5 4.34e+05     1.35               4.4e+05       1.38                 33.5      1.24          2                    FITNESS_BELOW_THRESH
+  fixed r=5 Rotated Ellipsoid          5     5 3.88e+05     1.21              3.88e+05       1.22                 25.9     0.961          5                    FITNESS_BELOW_THRESH
+ fixed r=10 Rotated Ellipsoid          5     5 3.59e+05     1.12               3.6e+05       1.13                 27.8      1.03         10                    FITNESS_BELOW_THRESH
+ fixed r=25 Rotated Ellipsoid          5     5  3.3e+05     1.03              3.31e+05       1.04                 32.2       1.2         25                    FITNESS_BELOW_THRESH
+ fixed r=50 Rotated Ellipsoid          5     5 3.14e+05    0.979              3.13e+05      0.985                 42.8      1.59         50                    FITNESS_BELOW_THRESH
+       r0=5 Rotated Ellipsoid          5     5 3.18e+05    0.993              3.16e+05      0.993                   28      1.04       9.28                    FITNESS_BELOW_THRESH
+      r0=20 Rotated Ellipsoid          5     5 3.18e+05    0.992              3.14e+05      0.987                 25.9      0.96       8.62                    FITNESS_BELOW_THRESH
+      r0=50 Rotated Ellipsoid          5     5 3.21e+05        1              3.19e+05          1                 26.1      0.97       8.83                    FITNESS_BELOW_THRESH
+ interval=2 Rotated Ellipsoid          5     5  3.3e+05     1.03              3.29e+05       1.04                 30.9      1.15       6.28                    FITNESS_BELOW_THRESH
+ interval=1 Rotated Ellipsoid          5     5 2.79e+05    0.869              2.75e+05      0.866                 66.7      2.48       19.2                    FITNESS_BELOW_THRESH
+ interval=5 Rotated Ellipsoid          5     5 4.28e+05     1.33              4.26e+05       1.34                   26     0.965       1.46                    FITNESS_BELOW_THRESH
+interval=10 Rotated Ellipsoid          5     5 4.58e+05     1.43              4.55e+05       1.43                 24.3     0.903          1                    FITNESS_BELOW_THRESH
+interval=20 Rotated Ellipsoid          5     5  4.6e+05     1.43              4.62e+05       1.45                 23.7     0.879          1                    FITNESS_BELOW_THRESH
+     pop=34 Rotated Ellipsoid          5     5 4.42e+05     1.38              4.39e+05       1.38                 23.3     0.863       10.3                    FITNESS_BELOW_THRESH
+     pop=68 Rotated Ellipsoid          5     5 6.34e+05     1.98              6.33e+05       1.99                   25     0.928       13.6                    FITNESS_BELOW_THRESH
+    pop=136 Rotated Ellipsoid          4     5 1.22e+06     3.81              9.71e+05       3.05                   32      1.19       18.4   FITNESS_BELOW_THRESH,MAX_ITER_REACHED
+sigma0 x0.1 Rotated Ellipsoid          5     5 2.97e+05    0.927              2.98e+05      0.937                 25.4     0.945       7.42                    FITNESS_BELOW_THRESH
+    default            Sphere          5     5 1.18e+04        1              1.17e+04          1                0.759         1          1                    FITNESS_BELOW_THRESH
+    default        Bent-Cigar          5     5  3.6e+04        1              3.59e+04          1                  2.7         1       1.45                    FITNESS_BELOW_THRESH
+ sigma0 x10 Rotated Ellipsoid          5     5 3.67e+05     1.15              3.73e+05       1.17                 32.3       1.2       10.8                    FITNESS_BELOW_THRESH
+    default            Discus          5     5 8.58e+04        1              8.55e+04          1                 6.48         1       1.43                    FITNESS_BELOW_THRESH
+ tol=0.0001            Sphere          5     5 1.18e+04        1              1.17e+04          1                0.938      1.24          1                    FITNESS_BELOW_THRESH
+ tol=0.0001        Bent-Cigar          5     5  3.6e+04    0.999              3.59e+04          1                 2.71         1       1.45                    FITNESS_BELOW_THRESH
+  tol=0.001            Sphere          5     5 1.18e+04        1              1.17e+04          1                0.798      1.05          1                    FITNESS_BELOW_THRESH
+ tol=0.0001            Discus          5     5  8.6e+04        1              8.58e+04          1                 6.24     0.962       1.42                    FITNESS_BELOW_THRESH
+  tol=0.001        Bent-Cigar          5     5  3.6e+04    0.999              3.59e+04          1                 2.63     0.975       1.45                    FITNESS_BELOW_THRESH
+   tol=0.05            Sphere          5     5 1.18e+04        1              1.17e+04          1                0.819      1.08          1                    FITNESS_BELOW_THRESH
+  tol=0.001            Discus          5     5 8.61e+04        1              8.58e+04          1                 6.19     0.955       1.41                    FITNESS_BELOW_THRESH
+   tol=0.05        Bent-Cigar          5     5 3.61e+04        1              3.59e+04          1                 2.69     0.999       1.43                    FITNESS_BELOW_THRESH
+    tol=0.1            Sphere          5     5 1.18e+04        1              1.17e+04          1                0.847      1.12          1                    FITNESS_BELOW_THRESH
+   tol=0.05            Discus          5     5 8.53e+04    0.993              8.53e+04      0.998                 6.31     0.974        1.4                    FITNESS_BELOW_THRESH
+    tol=0.1        Bent-Cigar          5     5 3.61e+04        1              3.58e+04      0.999                 2.69     0.997       1.44                    FITNESS_BELOW_THRESH
+    tol=0.3            Sphere          5     5 1.18e+04        1              1.17e+04          1                0.868      1.14          1                    FITNESS_BELOW_THRESH
+    tol=0.1            Discus          5     5 8.55e+04    0.996              8.58e+04          1                  6.3     0.972        1.4                    FITNESS_BELOW_THRESH
+    tol=0.3        Bent-Cigar          5     5 3.63e+04     1.01              3.64e+04       1.01                 2.61     0.966        1.4                    FITNESS_BELOW_THRESH
+     rmax=5            Sphere          5     5 1.18e+04        1              1.17e+04          1                0.939      1.24          1                    FITNESS_BELOW_THRESH
+    tol=0.3            Discus          5     5  8.6e+04        1               8.6e+04       1.01                 6.82      1.05       1.39                    FITNESS_BELOW_THRESH
+     rmax=5        Bent-Cigar          5     5  3.6e+04        1              3.59e+04          1                 2.71         1       1.45                    FITNESS_BELOW_THRESH
+    rmax=10            Sphere          5     5 1.18e+04        1              1.17e+04          1                0.765      1.01          1                    FITNESS_BELOW_THRESH
+     rmax=5            Discus          5     5 8.58e+04        1              8.55e+04          1                 6.51         1       1.43                    FITNESS_BELOW_THRESH
+    rmax=10        Bent-Cigar          5     5  3.6e+04        1              3.59e+04          1                 2.67      0.99       1.45                    FITNESS_BELOW_THRESH
+    rmax=25            Sphere          5     5 1.18e+04        1              1.17e+04          1                0.936      1.23          1                    FITNESS_BELOW_THRESH
+    rmax=10            Discus          5     5 8.58e+04        1              8.55e+04          1                 6.32     0.975       1.43                    FITNESS_BELOW_THRESH
+    rmax=25        Bent-Cigar          5     5  3.6e+04        1              3.59e+04          1                 2.86      1.06       1.45                    FITNESS_BELOW_THRESH
+    rmax=50            Sphere          5     5 1.18e+04        1              1.17e+04          1                0.877      1.16          1                    FITNESS_BELOW_THRESH
+    rmax=25            Discus          5     5 8.58e+04        1              8.55e+04          1                 6.25     0.964       1.43                    FITNESS_BELOW_THRESH
+    rmax=50        Bent-Cigar          5     5  3.6e+04        1              3.59e+04          1                 2.69     0.996       1.45                    FITNESS_BELOW_THRESH
+  fixed r=1            Sphere          5     5 1.18e+04        1              1.17e+04          1                 0.85      1.12          1                    FITNESS_BELOW_THRESH
+    rmax=50            Discus          5     5 8.58e+04        1              8.55e+04          1                  6.2     0.956       1.43                    FITNESS_BELOW_THRESH
+  fixed r=1        Bent-Cigar          5     5  3.6e+04        1              3.58e+04      0.998                 2.65     0.982          1                    FITNESS_BELOW_THRESH
+  fixed r=2            Sphere          5     5 1.18e+04    0.999              1.18e+04       1.01                 0.81      1.07          2                    FITNESS_BELOW_THRESH
+  fixed r=1            Discus          5     5  8.6e+04        1              8.58e+04          1                 6.11     0.943          1                    FITNESS_BELOW_THRESH
+  fixed r=2        Bent-Cigar          5     5 3.59e+04    0.996              3.59e+04          1                  2.7         1          2                    FITNESS_BELOW_THRESH
+  fixed r=5            Sphere          5     5 1.19e+04     1.01              1.18e+04       1.01                0.768      1.01          5                    FITNESS_BELOW_THRESH
+  fixed r=2            Discus          5     5 8.58e+04        1              8.54e+04      0.999                 6.67      1.03          2                    FITNESS_BELOW_THRESH
+  fixed r=5        Bent-Cigar          5     5 4.71e+04     1.31              4.72e+04       1.32                 3.27      1.21          5                    FITNESS_BELOW_THRESH
+ fixed r=10            Sphere          5     5 1.19e+04     1.01               1.2e+04       1.02                0.874      1.15         10                    FITNESS_BELOW_THRESH
+  fixed r=5            Discus          5     5 1.49e+05     1.73              1.49e+05       1.74                 9.86      1.52          5                    FITNESS_BELOW_THRESH
+ fixed r=10        Bent-Cigar          5     5 4.72e+04     1.31              4.73e+04       1.32                 3.49      1.29         10                    FITNESS_BELOW_THRESH
+ fixed r=25            Sphere          5     5 1.21e+04     1.02              1.22e+04       1.04                 1.02      1.35         25                    FITNESS_BELOW_THRESH
+ fixed r=10            Discus          5     5  1.5e+05     1.74              1.51e+05       1.76                 11.1      1.71         10                    FITNESS_BELOW_THRESH
+ fixed r=25        Bent-Cigar          5     5 5.83e+04     1.62              5.83e+04       1.62                 5.55      2.06         25                    FITNESS_BELOW_THRESH
+ fixed r=50            Sphere          5     5  1.2e+04     1.01               1.2e+04       1.02                 1.63      2.15         50                    FITNESS_BELOW_THRESH
+ fixed r=25            Discus          5     5 2.07e+05     2.41              2.07e+05       2.42                 19.5         3         25                    FITNESS_BELOW_THRESH
+ fixed r=50        Bent-Cigar          5     5 6.96e+04     1.93              6.96e+04       1.94                 9.42      3.49         50                    FITNESS_BELOW_THRESH
+       r0=5            Sphere          5     5 1.19e+04     1.01               1.2e+04       1.02                0.902      1.19       1.02                    FITNESS_BELOW_THRESH
+       r0=5        Bent-Cigar          5     5 3.62e+04        1              3.62e+04       1.01                 3.02      1.12       1.42                    FITNESS_BELOW_THRESH
+ fixed r=50            Discus          5     5  2.6e+05     3.03              2.59e+05       3.03                   37      5.72         50                    FITNESS_BELOW_THRESH
+       r0=5            Discus          5     5 8.67e+04     1.01              8.63e+04       1.01                 6.78      1.05       1.44                    FITNESS_BELOW_THRESH
+      r0=20            Sphere          5     5 1.18e+04        1              1.18e+04       1.01                0.993      1.31       1.62                    FITNESS_BELOW_THRESH
+      r0=20        Bent-Cigar          5     5 3.64e+04     1.01              3.63e+04       1.01                 2.69     0.998       1.62                    FITNESS_BELOW_THRESH
+      r0=50            Sphere          5     5 1.18e+04    0.998              1.17e+04      0.999                 1.01      1.33       6.98                    FITNESS_BELOW_THRESH
+      r0=20            Discus          5     5  8.6e+04        1              8.57e+04          1                 6.49         1       1.62                    FITNESS_BELOW_THRESH
+      r0=50        Bent-Cigar          5     5 3.64e+04     1.01              3.64e+04       1.02                 3.08      1.14       3.44                    FITNESS_BELOW_THRESH
+ interval=1            Sphere          5     5 1.18e+04        1              1.17e+04          1                0.787      1.04          1                    FITNESS_BELOW_THRESH
+      r0=50            Discus          5     5 8.74e+04     1.02              8.76e+04       1.02                 6.89      1.06        2.4                    FITNESS_BELOW_THRESH
+ interval=1        Bent-Cigar          5     5  3.6e+04        1              3.59e+04          1                 2.82      1.04       1.45                    FITNESS_BELOW_THRESH
+ interval=2            Sphere          5     5  1.2e+04     1.02               1.2e+04       1.02                0.705      0.93          1                    FITNESS_BELOW_THRESH
+ interval=1            Discus          5     5 8.56e+04    0.997              8.55e+04          1                 6.58      1.01       1.44                    FITNESS_BELOW_THRESH
+ interval=2        Bent-Cigar          5     5  4.7e+04      1.3               4.7e+04       1.31                 2.71         1       1.14                    FITNESS_BELOW_THRESH
+ interval=5            Sphere          5     5  1.2e+04     1.01              1.19e+04       1.01                0.643     0.848          1                    FITNESS_BELOW_THRESH
+ interval=2            Discus          5     5 1.49e+05     1.74              1.49e+05       1.74                 8.91      1.38          1                    FITNESS_BELOW_THRESH
+ interval=5        Bent-Cigar          5     5 8.02e+04     2.23              8.04e+04       2.24                 4.83      1.79          1                    FITNESS_BELOW_THRESH
+interval=10            Sphere          5     5 1.21e+04     1.02               1.2e+04       1.02                0.634     0.836          1                    FITNESS_BELOW_THRESH
+interval=10        Bent-Cigar          5     5 1.32e+05     3.68              1.32e+05       3.68                 6.27      2.33          1                    FITNESS_BELOW_THRESH
+ interval=5            Discus          5     5 3.12e+05     3.63              3.12e+05       3.64                 15.6      2.41          1                    FITNESS_BELOW_THRESH
+interval=20            Sphere          5     5 1.21e+04     1.03              1.21e+04       1.03                0.485     0.639          1                    FITNESS_BELOW_THRESH
+interval=20        Bent-Cigar          5     5 2.33e+05     6.47              2.33e+05       6.49                 10.2      3.76          1                    FITNESS_BELOW_THRESH
+interval=10            Discus          5     5 5.38e+05     6.27              5.34e+05       6.24                 24.6       3.8          1                    FITNESS_BELOW_THRESH
+     pop=34            Sphere          5     5  1.6e+04     1.36              1.59e+04       1.36                0.737     0.971          1                    FITNESS_BELOW_THRESH
+     pop=34        Bent-Cigar          5     5  4.9e+04     1.36               4.9e+04       1.37                 2.22     0.821       1.38                    FITNESS_BELOW_THRESH
+     pop=34            Discus          5     5 8.93e+04     1.04              8.95e+04       1.05                 3.87     0.597       1.52                    FITNESS_BELOW_THRESH
+interval=20            Discus          5     5 9.19e+05     10.7              9.03e+05       10.6                 41.4      6.39          1                    FITNESS_BELOW_THRESH
+     pop=68            Sphere          5     5 2.48e+04      2.1              2.47e+04        2.1                0.603     0.795          1                    FITNESS_BELOW_THRESH
+     pop=68        Bent-Cigar          5     5 7.41e+04     2.06              7.42e+04       2.07                 2.17     0.806       1.42                    FITNESS_BELOW_THRESH
+     pop=68            Discus          5     5 9.86e+04     1.15              9.83e+04       1.15                 2.95     0.455       1.21                    FITNESS_BELOW_THRESH
+    pop=136            Sphere          5     5 4.27e+04     3.61              4.24e+04       3.61                0.883      1.16          1                    FITNESS_BELOW_THRESH
+    pop=136        Bent-Cigar          5     5 1.21e+05     3.37              1.21e+05       3.39                 2.63     0.975       1.46                    FITNESS_BELOW_THRESH
+    pop=136            Discus          5     5 1.15e+05     1.34              1.15e+05       1.34                 2.59       0.4       1.19                    FITNESS_BELOW_THRESH
+sigma0 x0.1            Sphere          5     5 1.19e+04     1.01               1.2e+04       1.02                0.732     0.965          1                    FITNESS_BELOW_THRESH
+sigma0 x0.1        Bent-Cigar          5     5 3.61e+04        1              3.61e+04       1.01                 2.68     0.992       1.46                    FITNESS_BELOW_THRESH
+ sigma0 x10            Sphere          5     5 1.37e+04     1.16              1.35e+04       1.15                0.996      1.31          1                    FITNESS_BELOW_THRESH
+sigma0 x0.1            Discus          5     5 8.49e+04    0.989              8.38e+04      0.981                 6.07     0.936       1.62                    FITNESS_BELOW_THRESH
+ sigma0 x10        Bent-Cigar          5     5 3.82e+04     1.06              3.82e+04       1.06                 2.69     0.997       1.46                    FITNESS_BELOW_THRESH
+ sigma0 x10            Discus          5     5 8.85e+04     1.03              8.85e+04       1.03                  5.4     0.834       1.52                    FITNESS_BELOW_THRESH

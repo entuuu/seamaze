@@ -128,3 +128,9 @@ temp/
 .claude/
 flowcharts/
 # Add project-specific rules below
+
+# ==================================================
+# Parameter study: keep the run logs (part of the results)
+# ==================================================
+!studies/parameter_study/results/logs/
+!studies/parameter_study/results/logs/*.log

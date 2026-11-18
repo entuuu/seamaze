@@ -1,0 +1,32 @@
+psifold: 30 tasks to run (0 already done), 5 workers
+[1/30     415s] psifold full rank, interval=1 Ellipsoid          s=2 ok=1 f=9.95e-09 evals=  290003 r=100 t= 185.1s FITNESS_BELOW_THRESH
+[2/30     416s] psifold full rank, interval=1 Ellipsoid          s=1 ok=1 f=9.91e-09 evals=  293590 r=100 t= 188.1s FITNESS_BELOW_THRESH
+[3/30     417s] psifold full rank, interval=1 Ellipsoid          s=0 ok=1 f=9.47e-09 evals=  298741 r=100 t= 188.7s FITNESS_BELOW_THRESH
+[4/30     420s] psifold full rank, interval=1 Ellipsoid          s=3 ok=1 f=9.76e-09 evals=  293675 r=100 t= 189.7s FITNESS_BELOW_THRESH
+[5/30     423s] psifold full rank, interval=1 Ellipsoid          s=4 ok=1 f=9.99e-09 evals=  299557 r=100 t= 191.3s FITNESS_BELOW_THRESH
+[6/30     676s] psifold full rank, interval=1 Rosenbrock         s=2 ok=1 f=9.81e-09 evals=  395352 r=100 t= 259.9s FITNESS_BELOW_THRESH
+[7/30     679s] psifold full rank, interval=1 Rosenbrock         s=0 ok=1 f=9.77e-09 evals=  399772 r=100 t= 263.5s FITNESS_BELOW_THRESH
+[8/30     679s] psifold full rank, interval=1 Rosenbrock         s=4 ok=1 f=9.71e-09 evals=  389130 r=100 t= 256.4s FITNESS_BELOW_THRESH
+[9/30     687s] psifold full rank, interval=1 Rosenbrock         s=1 ok=1 f=7.67e-09 evals=  410992 r=100 t= 270.9s FITNESS_BELOW_THRESH
+[10/30     717s] psifold full rank, interval=1 Rotated Ellipsoid  s=0 ok=1 f=9.84e-09 evals=   64600 r=100 t=  41.0s FITNESS_BELOW_THRESH
+[11/30     723s] psifold full rank, interval=1 Rotated Ellipsoid  s=1 ok=1 f=9.47e-09 evals=   66895 r=100 t=  44.3s FITNESS_BELOW_THRESH
+[12/30     723s] psifold full rank, interval=1 Rotated Ellipsoid  s=2 ok=1 f=9.82e-09 evals=   66708 r=100 t=  44.1s FITNESS_BELOW_THRESH
+[13/30     730s] psifold full rank, interval=1 Rotated Ellipsoid  s=3 ok=1 f=9.54e-09 evals=   64668 r=100 t=  42.2s FITNESS_BELOW_THRESH
+[14/30     730s] psifold full rank, interval=1 Sphere             s=0 ok=1 f=9.43e-09 evals=   11815 r=100 t=   6.6s FITNESS_BELOW_THRESH
+[15/30     730s] psifold full rank, interval=1 Sphere             s=1 ok=1 f=8.88e-09 evals=   11696 r=100 t=   6.4s FITNESS_BELOW_THRESH
+[16/30     736s] psifold full rank, interval=1 Sphere             s=2 ok=1 f=9.28e-09 evals=   11781 r=100 t=   6.5s FITNESS_BELOW_THRESH
+[17/30     736s] psifold full rank, interval=1 Sphere             s=3 ok=1 f=9.31e-09 evals=   11917 r=100 t=   6.5s FITNESS_BELOW_THRESH
+[18/30     736s] psifold full rank, interval=1 Sphere             s=4 ok=1 f=9.96e-09 evals=   11730 r=100 t=   6.4s FITNESS_BELOW_THRESH
+[19/30     757s] psifold full rank, interval=1 Rotated Ellipsoid  s=4 ok=1 f=9.36e-09 evals=   63087 r=100 t=  39.3s FITNESS_BELOW_THRESH
+[20/30     759s] psifold full rank, interval=1 Bent-Cigar         s=0 ok=1 f=8.99e-09 evals=   36295 r=100 t=  22.7s FITNESS_BELOW_THRESH
+[21/30     759s] psifold full rank, interval=1 Bent-Cigar         s=1 ok=1 f=8.38e-09 evals=   36516 r=100 t=  22.6s FITNESS_BELOW_THRESH
+[22/30     759s] psifold full rank, interval=1 Bent-Cigar         s=2 ok=1 f=9.61e-09 evals=   36244 r=100 t=  22.6s FITNESS_BELOW_THRESH
+[23/30     781s] psifold full rank, interval=1 Bent-Cigar         s=3 ok=1 f=9.01e-09 evals=   36040 r=100 t=  23.9s FITNESS_BELOW_THRESH
+[24/30     786s] psifold full rank, interval=1 Bent-Cigar         s=4 ok=1 f=8.55e-09 evals=   36669 r=100 t=  27.1s FITNESS_BELOW_THRESH
+[25/30     820s] psifold full rank, interval=1 Discus             s=0 ok=1 f=9.43e-09 evals=   87414 r=100 t=  61.6s FITNESS_BELOW_THRESH
+[26/30     821s] psifold full rank, interval=1 Discus             s=1 ok=1 f=9.14e-09 evals=   87516 r=100 t=  61.7s FITNESS_BELOW_THRESH
+[27/30     841s] psifold full rank, interval=1 Discus             s=2 ok=1 f=9.32e-09 evals=   89029 r=100 t=  59.9s FITNESS_BELOW_THRESH
+[28/30     844s] psifold full rank, interval=1 Discus             s=3 ok=1 f=9.43e-09 evals=   89505 r=100 t=  58.1s FITNESS_BELOW_THRESH
+[29/30     854s] psifold full rank, interval=1 Rosenbrock         s=3 ok=0 f=3.99e+00 evals=  653633 r=100 t= 434.0s SIGMA_BELOW_THRESH
+[30/30     871s] psifold full rank, interval=1 Discus             s=4 ok=1 f=9.45e-09 evals=   87788 r=100 t=  50.9s FITNESS_BELOW_THRESH
+done in 874s

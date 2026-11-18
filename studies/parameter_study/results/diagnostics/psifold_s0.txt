@@ -1,0 +1,25 @@
+n=100, seed=0, Variante=psifold
+Rotated Ellipsoid | voller Rang | Bibliothek Erfolg=ja  Evals=  225046 f=9.985e-09 Rang=100 Zeit=  96.1s
+Rotated Ellipsoid | voller Rang | psifold    Erfolg=ja  Evals=   64600 f=9.836e-09 Rang=100 Zeit=  34.9s
+Rotated Ellipsoid | adaptiv | Bibliothek     Erfolg=ja  Evals=  274108 f=9.931e-09 Rang= 47 Zeit=  72.4s
+Rotated Ellipsoid | adaptiv | psifold        Erfolg=nein Evals=  364854 f=7.532e+02 Rang= 68 Zeit=2057.3s
+Ellipsoid | voller Rang | Bibliothek         Erfolg=nein Evals=   15963 f=2.535e+05 Rang=100 Zeit=1597.6s
+Ellipsoid | voller Rang | psifold            Erfolg=ja  Evals=  298741 f=9.472e-09 Rang=100 Zeit=  56.4s
+Ellipsoid | adaptiv | Bibliothek             Erfolg=ja  Evals=  284631 f=9.405e-09 Rang= 86 Zeit= 137.3s
+Ellipsoid | adaptiv | psifold                Erfolg=nein Evals= 1000008 f=3.387e+04 Rang= 66 Zeit= 356.9s
+Rosenbrock | voller Rang | Bibliothek        Erfolg=ja  Evals=  395114 f=9.548e-09 Rang=100 Zeit= 101.9s
+Rosenbrock | voller Rang | psifold           Erfolg=ja  Evals=  399772 f=9.775e-09 Rang=100 Zeit= 174.8s
+Rosenbrock | adaptiv | Bibliothek            Erfolg=ja  Evals=  411859 f=9.510e-09 Rang= 40 Zeit= 125.4s
+Rosenbrock | adaptiv | psifold               Erfolg=nein Evals= 1000008 f=1.595e+02 Rang= 25 Zeit= 289.3s
+Sphere | voller Rang | Bibliothek            Erfolg=ja  Evals=   11441 f=9.342e-09 Rang=100 Zeit=   1.7s
+Sphere | voller Rang | psifold               Erfolg=ja  Evals=   11815 f=9.433e-09 Rang=100 Zeit=   1.8s
+Sphere | adaptiv | Bibliothek                Erfolg=ja  Evals=   11696 f=9.771e-09 Rang=  1 Zeit=   0.3s
+Sphere | adaptiv | psifold                   Erfolg=ja  Evals=  942497 f=9.997e-09 Rang= 23 Zeit= 365.6s
+Bent-Cigar | voller Rang | Bibliothek        Erfolg=ja  Evals=   35615 f=8.427e-09 Rang=100 Zeit=  14.9s
+Bent-Cigar | voller Rang | psifold           Erfolg=ja  Evals=   36295 f=8.994e-09 Rang=100 Zeit=  15.8s
+Bent-Cigar | adaptiv | Bibliothek            Erfolg=ja  Evals=   35768 f=8.935e-09 Rang=  1 Zeit=   3.1s
+Bent-Cigar | adaptiv | psifold               Erfolg=ja  Evals=  883405 f=9.997e-09 Rang= 23 Zeit= 305.2s
+Discus | voller Rang | Bibliothek            Erfolg=ja  Evals=   85748 f=9.591e-09 Rang=100 Zeit=  32.4s
+Discus | voller Rang | psifold               Erfolg=ja  Evals=   87414 f=9.431e-09 Rang=100 Zeit=  38.4s
+Discus | adaptiv | Bibliothek                Erfolg=ja  Evals=   86632 f=9.500e-09 Rang=  2 Zeit=   7.5s
+Discus | adaptiv | psifold                   Erfolg=ja  Evals=  679354 f=9.311e-09 Rang=  5 Zeit= 278.5s

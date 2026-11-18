@@ -1,0 +1,38 @@
+rotpilot: 36 tasks to run (0 already done), 6 workers
+[1/36      97s] default        Rot-Bent-Cigar     s=1 ok=1 f=9.74e-09 evals=   44489 r= 58 t=   6.2s FITNESS_BELOW_THRESH
+[2/36      97s] default        Rot-Bent-Cigar     s=0 ok=1 f=8.64e-09 evals=   47974 r= 57 t=   7.3s FITNESS_BELOW_THRESH
+[3/36     103s] tol=0.3        Rot-Bent-Cigar     s=0 ok=1 f=8.89e-09 evals=   36618 r=  2 t=   5.7s FITNESS_BELOW_THRESH
+[4/36     103s] tol=0.3        Rot-Bent-Cigar     s=1 ok=1 f=9.51e-09 evals=   36312 r=  2 t=   5.6s FITNESS_BELOW_THRESH
+[5/36     191s] tol=0.3        Rot-Discus         s=0 ok=0 f=1.98e+03 evals= 1000008 r=  2 t=  88.4s MAX_ITER_REACHED
+[6/36     194s] tol=0.3        Rot-Discus         s=1 ok=0 f=9.98e+02 evals= 1000008 r=  2 t=  90.7s MAX_ITER_REACHED
+[7/36     217s] default        Rot-Discus         s=0 ok=0 f=1.35e+02 evals= 1000008 r= 70 t= 126.4s MAX_ITER_REACHED
+[8/36     221s] rmax=10        Rot-Bent-Cigar     s=0 ok=1 f=9.52e-09 evals=   42908 r= 10 t=   3.9s FITNESS_BELOW_THRESH
+[9/36     225s] rmax=10        Rot-Bent-Cigar     s=1 ok=1 f=8.35e-09 evals=   42075 r= 10 t=   4.0s FITNESS_BELOW_THRESH
+[10/36     241s] default        Rot-Discus         s=1 ok=0 f=1.85e+02 evals= 1000008 r= 74 t= 150.3s MAX_ITER_REACHED
+[11/36     275s] tol=0.3        Rot-Ellipsoid      s=0 ok=0 f=1.39e+03 evals= 1000008 r=  3 t=  84.4s MAX_ITER_REACHED
+[12/36     276s] default        Rot-Ellipsoid      s=1 ok=0 f=1.34e+01 evals= 1000008 r= 72 t= 184.1s MAX_ITER_REACHED
+[13/36     277s] default        Rot-Ellipsoid      s=0 ok=0 f=4.75e+00 evals= 1000008 r= 73 t= 185.6s MAX_ITER_REACHED
+[14/36     279s] tol=0.3        Rot-Ellipsoid      s=1 ok=0 f=2.34e+03 evals= 1000008 r=  2 t=  85.8s MAX_ITER_REACHED
+[15/36     280s] fixed r=1      Rot-Bent-Cigar     s=0 ok=1 f=9.56e-09 evals=   36363 r=  1 t=   3.0s FITNESS_BELOW_THRESH
+[16/36     282s] fixed r=1      Rot-Bent-Cigar     s=1 ok=1 f=9.93e-09 evals=   36108 r=  1 t=   2.8s FITNESS_BELOW_THRESH
+[17/36     318s] rmax=10        Rot-Discus         s=0 ok=0 f=5.45e+02 evals= 1000008 r= 10 t=  93.2s MAX_ITER_REACHED
+[18/36     335s] rmax=10        Rot-Discus         s=1 ok=0 f=2.75e+02 evals= 1000008 r= 10 t=  93.7s MAX_ITER_REACHED
+[19/36     367s] fixed r=1      Rot-Discus         s=0 ok=0 f=2.41e+03 evals= 1000008 r=  1 t=  87.1s MAX_ITER_REACHED
+[20/36     368s] rmax=10        Rot-Ellipsoid      s=0 ok=0 f=2.08e+02 evals= 1000008 r= 10 t=  92.7s MAX_ITER_REACHED
+[21/36     369s] fixed r=1      Rot-Discus         s=1 ok=0 f=1.77e+03 evals= 1000008 r=  1 t=  86.5s MAX_ITER_REACHED
+[22/36     370s] rmax=10        Rot-Ellipsoid      s=1 ok=0 f=5.85e+02 evals= 1000008 r= 10 t=  94.0s MAX_ITER_REACHED
+[23/36     371s] fixed r=10     Rot-Bent-Cigar     s=0 ok=1 f=9.80e-09 evals=   47991 r= 10 t=   4.2s FITNESS_BELOW_THRESH
+[24/36     372s] fixed r=10     Rot-Bent-Cigar     s=1 ok=1 f=9.45e-09 evals=   46937 r= 10 t=   4.3s FITNESS_BELOW_THRESH
+[25/36     397s] fixed r=1      Rot-Ellipsoid      s=0 ok=0 f=2.02e+03 evals= 1000008 r=  1 t=  79.0s MAX_ITER_REACHED
+[26/36     408s] interval=1     Rot-Bent-Cigar     s=0 ok=1 f=8.57e-09 evals=   36125 r= 59 t=  10.6s FITNESS_BELOW_THRESH
+[27/36     413s] fixed r=1      Rot-Ellipsoid      s=1 ok=0 f=3.41e+03 evals= 1000008 r=  1 t=  77.9s MAX_ITER_REACHED
+[28/36     418s] interval=1     Rot-Bent-Cigar     s=1 ok=1 f=9.23e-09 evals=   35853 r= 56 t=  10.4s FITNESS_BELOW_THRESH
+[29/36     460s] fixed r=10     Rot-Discus         s=0 ok=0 f=1.62e+03 evals= 1000008 r= 10 t=  91.1s MAX_ITER_REACHED
+[30/36     461s] fixed r=10     Rot-Ellipsoid      s=0 ok=0 f=3.69e+02 evals= 1000008 r= 10 t=  89.6s MAX_ITER_REACHED
+[31/36     461s] fixed r=10     Rot-Ellipsoid      s=1 ok=0 f=2.40e+02 evals= 1000008 r= 10 t=  88.8s MAX_ITER_REACHED
+[32/36     462s] fixed r=10     Rot-Discus         s=1 ok=0 f=8.79e+01 evals= 1000008 r= 10 t=  91.3s MAX_ITER_REACHED
+[33/36     810s] interval=1     Rot-Ellipsoid      s=0 ok=1 f=9.99e-09 evals=  743461 r= 65 t= 349.6s FITNESS_BELOW_THRESH
+[34/36     816s] interval=1     Rot-Ellipsoid      s=1 ok=1 f=9.96e-09 evals=  763215 r= 64 t= 355.6s FITNESS_BELOW_THRESH
+[35/36     841s] interval=1     Rot-Discus         s=0 ok=0 f=3.37e-05 evals= 1000008 r= 78 t= 428.2s MAX_ITER_REACHED
+[36/36     844s] interval=1     Rot-Discus         s=1 ok=0 f=2.40e-04 evals= 1000008 r= 84 t= 425.6s MAX_ITER_REACHED
+done in 847s
